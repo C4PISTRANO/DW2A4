@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #f0f2f5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: min(90vw, 800px);
+	
+	
+	margin: auto;
+}
+
+/* Titles =================================*/
+h2 {
+	margin-top: 3.2rem;
+	margin-bottom: 0.8rem
+	color: #363f5f
+	
+	font-weight: normal;
+}
+
+/* Header =================================*/
+header {
+	background: #2d4a22;
+	padding: 2rem 0 10rem;
+	text-align: center;
+}
+
+#logo {
+	color: #fff;
+	font-weight: 100;
+}
+
+/* Balance =================================*/
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2 {
+    color:white;
+    margin-top:0;
+}
+
+/* Footer =================================*/
+footer {
+	text-align: center;
+}
