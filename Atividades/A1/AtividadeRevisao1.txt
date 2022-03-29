@@ -1,0 +1,3 @@
+A1 - Atividade de Revisão
+
+Elaborar a ferramenta web DevFinance, conforme o vídeo localizado na pasta aula-1 no link, pode-se realizar customizações. As imagens utilizadas na aplicação estão na pasta assets. O aluno deve fazer o HTML, CSS e JavaSCript e ao final salvar os arquivo em uma subpasta "A1", dentro da pasta "atividades" no repositório do github da disciplina, assim como, fazer deploy (publicar) a ferramenta web no GitHub Pages (ou quaisquer outros serviços) e enviar o link do repositório e da página da ferramenta no moddle
