@@ -44,12 +44,12 @@ header {
 
 /* Balance =================================*/
 #balance {
-    margin-top: -8rem;
+    margin-top: -6rem;
 }
 
 #balance h2 {
     color:white;
-    margin-top:0;
+    margin-top: 0rem;
 }
 
 /* Cards =================================*/
@@ -76,7 +76,7 @@ header {
 }
 
 .card.total {
-	background: #0a4468;
+	background: #1a619b;
 	color: white;
 }
 
@@ -134,4 +134,12 @@ footer {
 	color: var(--dark-blue);
 
 	opacity: 0.5;
+}
+
+footer b {
+	opacity: 0.5
+}
+
+footer b:hover {
+	opacity: 1
 }
