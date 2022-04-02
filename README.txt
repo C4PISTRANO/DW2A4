@@ -2,21 +2,21 @@ Projeto: Maratona Discovery.
 Autor: Rivaildo Ferreira
 
 
-IFSP - Instituto Federal de Educação, Ciências e Tecnologia de São Paulo.
-Campus São Paulo.
-Tecnólogo em Análise e Desenvolvimento de Sistemas.
+IFSP - Instituto Federal de EducaÃ§Ã£o, CiÃªncias e Tecnologia de SÃ£o Paulo.
+Campus SÃ£o Paulo.
+TecnÃ³logo em AnÃ¡lise e Desenvolvimento de Sistemas.
 
 
 
-Atividades de revisão propostas pelo Prof. Johnata Souza Santicioli - IFSP, para a disciplina de Desenvolvimento Web. 
+Atividades de revisÃ£o propostas pelo Prof. Johnata Souza Santicioli - IFSP, para a disciplina de Desenvolvimento Web. 
 
-Trata-se de Vídeo aulas ministradas pelo educador Mayk Brito, dentro plataforma de educação em tecnologia Rocketseat.
+Trata-se de VÃ­deo aulas ministradas pelo educador Mayk Brito, dentro plataforma de educaÃ§Ã£o em tecnologia Rocketseat.
 
 
 
 Sobre o funcionamento do projeto:
-O projeto consiste em criar uma aplicação web de controle financeiro, utilizando HTML, CSS e Javascript.
+O projeto consiste em criar uma aplicaÃ§Ã£o web de controle financeiro, utilizando HTML, CSS e Javascript.
 
 
 
-Endereço: https://github.com/F3RREIRA/DWA4.git
+EndereÃ§o: https://github.com/F3RREIRA/DW2A4
