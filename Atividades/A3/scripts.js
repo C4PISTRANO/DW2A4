@@ -155,7 +155,9 @@ const Utils ={
 }
 
 const Form = { 
-    
+    submit(event) {
+        event.preventDefault()   //REVISAR A PARTIR DAQUI
+    }
 }
 
 const App = {
