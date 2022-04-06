@@ -32,7 +32,7 @@ const Transaction = {
         },
         {
             description: 'Website',
-            amount: 502000,
+            amount: 500000,
             date: '29/03/2022',
         },
         {
@@ -97,7 +97,7 @@ const DOM = { // DOM - Document Object Model
     transactionsContainer: document.querySelector('#data-table tbody'),
 
     addTransaction(transaction, index){
-        console.log(transaction)
+        //console.log(transaction)
         const tr = document.createElement ('tr')
         tr.innerHTML = DOM.innerHTMLTrasaction(transaction)
 
@@ -111,7 +111,7 @@ const DOM = { // DOM - Document Object Model
         
         const html = `        
         <td class="description">${transaction.description}</td>
-        <td class="${CSSclass}">${amount}</td>
+        <td class="${CSSclass}">${transaction.amount}</td>
         <td class="date" >${transaction.date}</td>
         <td><img src="./assets/minus.svg" alt="Remover Transação"></td>
         
@@ -138,6 +138,16 @@ const DOM = { // DOM - Document Object Model
 }
 
 const Utils ={
+    formatAmount(value) {
+        value = Number(value) * 100
+        console.log(value)
+        return value
+    },
+    formatDate(date) {
+        const splittedDate = date.split("-")
+        return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
+    },
+
     formatCUrrency(value) {
         const signal = Number(value) < 0 ? "-" : ""
 
@@ -160,7 +170,6 @@ const Form = {
     date: document.querySelector('input#date'),
 
     getValues() {
-        console.log(Form)
         return {
             description: Form.description.value,
             amount: Form.amount.value,
@@ -170,7 +179,7 @@ const Form = {
     
     
     validateFields() {
-        const { description, amount, date} = Form.getValues()
+        const { description, amount, date } = Form.getValues()
         
         if(
             description.trim() === "" ||
@@ -181,8 +190,29 @@ const Form = {
     },
 
     formatValues() {
-        const { description, amount, date} = Form.getValues()
-    }
+        let { description, amount, date } = Form.getValues()
+
+        amount = Utils.formatAmount(amount)
+
+        date = Utils.formatDate(date)
+
+        return {
+            description,
+            amount,
+            date
+        }
+    },
+
+    saveTransaction(transaction) {
+        Transaction.add(transaction)
+    },
+
+    clearFields() {
+        Form.description.value = ""
+        Form.amount.value = ""
+        Form.date.value = ""
+    },
+
     submit(event) {
         event.preventDefault()
         
@@ -190,13 +220,14 @@ const Form = {
         try {
             //Verificar se todas s informações foram prenchidas
             Form.validateFields()
-
             //Formatar os dados para salvar
-            Form.formatValues()
+            const trasaction = Form.formatValues()
             //Salvar
-            //Apagra os dados do formulario
+            Form.saveTransaction()
+            //Apaga os dados do formulario
+            Form.clearFields()
             //Fechar modal
-            //Atualizar a aplicação
+            Modal.close()            
         } catch (error) {
             alert(error.message)
         }
@@ -213,8 +244,7 @@ const App = {
         })
         
         DOM.updateBalance()
-        
-        
+                
     },
     reload() {
         DOM.clearTransactions()
