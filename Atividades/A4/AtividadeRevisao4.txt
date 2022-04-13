@@ -1,0 +1,3 @@
+A4 - Atividade de Revisão
+
+Elaborar a ferramenta web DevFinance, conforme o vídeo localizado na pasta aula-4 no link, a aula-4 é apenas a correção de um bug nos minutos iniciais, pode-se realizar customizações. Em seguida, adicionar funcionalidades JavaScript para criar máscaras e validação dados nos campos do formulários antes de guardar os dados. As imagens utilizadas na aplicação estão na pasta assets. O aluno deve fazer o HTML, CSS e JavaSCript e ao final salvar os arquivo em uma subpasta "A4", dentro da pasta "atividades" no repositório do github da disciplina, assim como, fazer deploy (publicar) a ferramenta web no GitHub Pages (ou quaisquer outros serviços) e enviar o link do repositório e da página da ferramenta no moddle
