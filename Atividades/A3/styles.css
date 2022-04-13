@@ -112,7 +112,7 @@ header {
 
 /* Balance =================================*/
 #balance {
-    margin-top: -6rem;
+    margin-top: -5rem;
 }
 
 #balance h2 {
@@ -266,7 +266,7 @@ td.expense {
 	margin-top: 0.8rem;
 }
 
-.input-group small {
+.input-group .help {
 	opacity: 0.4;
 }
 

@@ -22,30 +22,18 @@ const Modal = {
     // remover das entradas o valor das saídas
     //assim, eu terei o total
 
+const Storage = {
+    get() {
+        return JSON.parse(localStorage.getItem("dev.finances:transactions")) || []
+    },
+    
+    set(transactions) {
+        localStorage.setItem("dev.finances:transactions", JSON.stringify(transactions))
+    }
+}
 
 const Transaction = {
-    all: [
-        {
-            description: 'luz',
-            amount: -50001,
-            date: '29/03/2022',
-        },
-        {
-            description: 'Website',
-            amount: 500000,
-            date: '29/03/2022',
-        },
-        {
-            description: 'Internet',
-            amount: -20012,
-            date: '29/03/2022',
-        },
-        {
-            description: 'App',
-            amount: 200000,
-            date: '29/03/2022',
-        },
-    ],
+    all: Storage.get(),
 
     add(transaction){
         Transaction.all.push(transaction)
@@ -60,7 +48,7 @@ const Transaction = {
     },
     // somar a uma variável e retornar a variavel
     
-    incomes(){ // somar as entradas
+    incomes() { // somar as entradas
         let income = 0;
             // pegar todas as transações
             // para cada transação,
@@ -96,40 +84,40 @@ const Transaction = {
 const DOM = { // DOM - Document Object Model
     transactionsContainer: document.querySelector('#data-table tbody'),
 
-    addTransaction(transaction, index){
-        //console.log(transaction)
+    addTransaction(transaction, index) {
         const tr = document.createElement ('tr')
-        tr.innerHTML = DOM.innerHTMLTrasaction(transaction)
+        tr.innerHTML = DOM.innerHTMLTransaction(transaction, index)
+        tr.dataset.index = index
 
         DOM.transactionsContainer.appendChild(tr)
         
     },
-    innerHTMLTrasaction(transaction) {
+    innerHTMLTransaction(transaction, index) {
         const CSSclass = transaction.amount > 0 ? "income" : "expense"
 
-        const amount = Utils.formatCUrrency(transaction.amount)
+        const amount = Utils.formatCurrency(transaction.amount)
         
         const html = `        
         <td class="description">${transaction.description}</td>
-        <td class="${CSSclass}">${transaction.amount}</td>
-        <td class="date" >${transaction.date}</td>
-        <td><img src="./assets/minus.svg" alt="Remover Transação"></td>
-        
+        <td class="${CSSclass}">${amount}</td>
+        <td class="date">${transaction.date}</td>
+        <td>
+            <img  onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover Transação">
+        </td>
         `
-
         return html
     },
 
     updateBalance() {
         document
             .getElementById("incomeDisplay")
-            .innerHTML = Utils.formatCUrrency(Transaction.incomes())
+            .innerHTML = Utils.formatCurrency(Transaction.incomes())
         document
             .getElementById("expenseDisplay")
-            .innerHTML = Utils.formatCUrrency(Transaction.expenses())
+            .innerHTML = Utils.formatCurrency(Transaction.expenses())
         document
             .getElementById("totalDisplay")
-            .innerHTML = Utils.formatCUrrency(Transaction.total())
+            .innerHTML = Utils.formatCurrency(Transaction.total())
     },
 
     clearTransactions () {
@@ -139,8 +127,8 @@ const DOM = { // DOM - Document Object Model
 
 const Utils ={
     formatAmount(value) {
-        value = Number(value) * 100
-        console.log(value)
+        value = Number(value.replace(/\,\./g, "")) * 100
+        
         return value
     },
     formatDate(date) {
@@ -148,7 +136,7 @@ const Utils ={
         return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
     },
 
-    formatCUrrency(value) {
+    formatCurrency(value) {
         const signal = Number(value) < 0 ? "-" : ""
 
         value = String(value).replace(/\D/g, "")
@@ -177,12 +165,10 @@ const Form = {
         }
     },
     
-    
     validateFields() {
         const { description, amount, date } = Form.getValues()
         
-        if(
-            description.trim() === "" ||
+        if( description.trim() === "" ||
             amount.trim() === "" ||
             date.trim() === "") {
                 throw new Error("Por favor, preencha todos os campos.")
@@ -195,16 +181,12 @@ const Form = {
         amount = Utils.formatAmount(amount)
 
         date = Utils.formatDate(date)
-
+       
         return {
             description,
             amount,
             date
         }
-    },
-
-    saveTransaction(transaction) {
-        Transaction.add(transaction)
     },
 
     clearFields() {
@@ -216,14 +198,13 @@ const Form = {
     submit(event) {
         event.preventDefault()
         
-
         try {
             //Verificar se todas s informações foram prenchidas
             Form.validateFields()
             //Formatar os dados para salvar
-            const trasaction = Form.formatValues()
+            const transaction = Form.formatValues()
             //Salvar
-            Form.saveTransaction()
+            Transaction.add(transaction)
             //Apaga os dados do formulario
             Form.clearFields()
             //Fechar modal
@@ -239,11 +220,11 @@ const Form = {
 const App = {
     init() {
 
-        Transaction.all.forEach(transaction => {
-            DOM.addTransaction(transaction)
-        })
+        Transaction.all.forEach(DOM.addTransaction)
         
         DOM.updateBalance()
+
+        Storage.set(Transaction.all)
                 
     },
     reload() {
