@@ -157,6 +157,7 @@ header {
 	width: 100%;
 	overflow-x: auto;
 }
+
 #data-table {
 	width: 100%;
 	border-spacing: 0 0.5rem;
@@ -187,8 +188,6 @@ table tbody tr {
 table tbody tr:hover {
 	opacity: 1
 }
-
-
 
 table tbody td {
 	background: white;
@@ -282,7 +281,6 @@ footer {
 	text-align: center;
 	padding: 4rem 0 2rem;
 	color: var(--dark-blue);
-
 	opacity: 0.5;
 }
 

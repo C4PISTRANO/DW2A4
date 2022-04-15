@@ -141,7 +141,7 @@ const Utils ={
 
         value = String(value).replace(/\D/g, "")
 
-        value = Number(value) / 100
+        value = (Number(value) / 100)
 
         value = value.toLocaleString("pt-BR", {
             style: "currency",
@@ -157,12 +157,33 @@ const Form = {
     amount: document.querySelector('input#amount'),
     date: document.querySelector('input#date'),
 
+
+    /* Formatar Mascara ========================================================= */
+    formatMask() {
+        var element = document.querySelector('input#amount');
+        var value = element.mask;
+
+        value = value + '';
+        value = parseInt(value.replace(/[\D]+/g, ''));
+        value = value + '';
+        value = value.replace(/([0-9]{2})$/g, ",$1");
+
+        if (value.length > 6) {
+            value = value.replace(/([0-9]{3}),([0-9]{2}$)/g, "R$ " + ".$1,$2");
+        }
+
+        element.value1 = value;
+        if(value == 'NaN') element.value = '';
+    },
+    /* ========================================================================== */
+
     getValues() {
         return {
             description: Form.description.value,
             amount: Form.amount.value,
             date: Form.date.value 
         }
+        
     },
     
     validateFields() {
