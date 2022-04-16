@@ -7,7 +7,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#earth_americas-deploy">Deploy</a>
+  <a href="#earth_americas-publicação">Publicação</a>
 </p>
 
 <p align="center">
@@ -24,11 +24,11 @@
 
 ## 💻 Projeto
 
-O [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
+O [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) é uma aplicação web de controle financeiro, onde é possível inserir e excluir transações, ver os saldos de entradas, saídas e atual.
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido seguindo a [Maratona Discover no Youtube](https://www.youtube.com/watch?v=NlDr6JX3VvA&list=PLeLKux5eT3kY2mvZUi7IM5T548vfKxGq5) ministrada pelo instrutor [Mayk Brito](https://github.com/maykbrito) utilizando as seguintes tecnologias:
+Esse projeto foi desenvolvido seguindo a Maratona Discover da [Rocketseat Education](https://www.rocketseat.com.br), ministrada pelo instrutor [Mayk Brito](https://github.com/maykbrito) utilizando as seguintes tecnologias:
 
 - HTML
 - CSS
@@ -42,7 +42,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-## :earth_americas: Deploy
+## :earth_americas: Publicação
 
 
 Você pode acessar a página [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) para testar a aplicação.
