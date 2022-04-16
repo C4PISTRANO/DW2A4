@@ -3,11 +3,11 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#earth_americas-publicação">Publicação</a>
+  <a href="#earth_americas-publicação">Publicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -38,14 +38,13 @@ Esse projeto foi desenvolvido seguindo a Maratona Discover da [Rocketseat Educat
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
+## :earth_americas: Publicação
+
+Você pode acessar a página [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) para testar a aplicação.
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-## :earth_americas: Publicação
-
-
-Você pode acessar a página [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) para testar a aplicação.
-
 ---
-Projeto by [F3ERREIRA](https://github.com/F3RREIRA)
+dev.finace$ by [F3ERREIRA](https://github.com/F3RREIRA)
