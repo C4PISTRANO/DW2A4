@@ -109,19 +109,9 @@ footer {
 	text-align: center;
 	padding: 2rem 0 0rem;
 	color: #fff;
-	opacity: 0.5;
+	opacity: 1;
 
   display: flex;
   
 	align-items: center;
-}
-
-footer b {
-	opacity: 1;
-  
-}
-
-footer b:hover {
-	opacity: 1;
-  
 }
