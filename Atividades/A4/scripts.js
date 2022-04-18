@@ -20,7 +20,7 @@ const Modal = {
     // Eu preciso somar as entradas
     // depois eu preciso somar as sáidas e 
     // remover das entradas o valor das saídas
-    //assim, eu terei o total
+    // assim, eu terei o total
 
 const Storage = {
     get() {
@@ -157,25 +157,34 @@ const Form = {
     amount: document.querySelector('input#amount'),
     date: document.querySelector('input#date'),
 
-
+   
     /* Formatar Mascara ========================================================= */
+    
+    /*currencyfield.addEventListener('input', format, false)
+
+    formatMask () {
+        let val = currencyfield.value;
+        amount: document.querySelector('input#amount').textContent =  val.toLocaleString('fullwide', {maximumFractionDigits:2, style:'currency', currency:'USD', useGrouping:true})
+    },
+
     formatMask() {
-        var element = document.querySelector('input#amount');
-        var value = element.mask;
+        var element = document.getElementById('amount');
+        var valor = element.mask;
 
-        value = value + '';
-        value = parseInt(value.replace(/[\D]+/g, ''));
-        value = value + '';
-        value = value.replace(/([0-9]{2})$/g, ",$1");
+        valor = valor + '';
+        valor = parseInt(value.replace(/[\D]+/g, ''));
+        valor = valor + '';
+        valor = valor.replace(/([0-9]{2})$/g, ",$1");
 
-        if (value.length > 6) {
-            value = value.replace(/([0-9]{3}),([0-9]{2}$)/g, "R$ " + ".$1,$2");
+        if (valor.length > 6) {
+            valor = valor.replace(/([0-9]{3}),([0-9]{2}$)/g, ".$1,$2");
         }
 
-        element.value1 = value;
-        if(value == 'NaN') element.value = '';
+        element.mask = value;
+        if(value == 'NaN') element.mask = '';
     },
-    /* ========================================================================== */
+    
+     ========================================================================== */
 
     getValues() {
         return {
@@ -195,6 +204,12 @@ const Form = {
                 throw new Error("Por favor, preencha todos os campos.")
         }
     },
+
+    money (value) {
+        const cleanValue = +value.replace(/\D+/g, '')
+        const options = { style: 'currency', currency: 'BRL' }
+        return new Intl.NumberFormat('pt-br', options).format(cleanValue / 100)
+      },
 
     formatValues() {
         let { description, amount, date } = Form.getValues()

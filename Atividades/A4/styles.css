@@ -50,7 +50,7 @@ h2 {
 
 /* Links & Buttons =================================*/
 a {
-	color: #1a619b;
+	color: var(--dark-blue);
 	text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ button:hover {
 /* Header =================================*/
 header {
 	background: #082f47;
-	padding: 2rem 0 10rem;
+	padding: 2rem 0 7rem;
 	text-align: center;
 }
 
@@ -282,6 +282,7 @@ footer {
 	padding: 4rem 0 2rem;
 	color: var(--dark-blue);
 	opacity: 0.5;
+	
 }
 
 footer b {
