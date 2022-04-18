@@ -44,9 +44,9 @@ document.querySelectorAll('input').forEach($input => {
 })
 
 /* Não enviar / atualizar o form =================================*/
-document.querySelector("form").addEventListener("submit", event => {
+/*document.querySelector("form").addEventListener("submit", event => {
     console.log("enviar o formulário")
 
     event.preventDefault()
-})
+})*/
 
