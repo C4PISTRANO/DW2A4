@@ -96,6 +96,15 @@ body {
   border: 2px solid rgb(207, 53, 53) !important;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1540dd;
+}
+
 footer {
 	text-align: center;
 	padding: 2rem 0 0rem;
@@ -114,7 +123,5 @@ footer b {
 
 footer b:hover {
 	opacity: 1;
-  color: #1540dd;
-  cursor: pointer;
   
 }
