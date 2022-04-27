@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido seguindo a Maratona Discover da [Rocketseat Educat
 - CSS
 - JavaScript
 
-## 🔖 Layout
+## :art: Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
