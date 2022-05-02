@@ -1,26 +1,14 @@
-/* Mascaras =================================*/
-const masks = {
-    cep (value) {
-      return value
-        .replace(/\D+/g, '') // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
-        .replace(/(\d{5})(\d)/, '$1-$2')
-        .replace(/(-\d{3})\d+?$/, '$1') //limitar a quantidade de números
-    },
-       
-}
-  
-document.querySelectorAll('input').forEach($input => {
-    const field = $input.dataset.js
-  
-    $input.addEventListener('input', e => {
-      e.target.value = masks[field](e.target.value)
-    }, false)
-})
+import Cep from './modules/cepApi.js';
+import Covid from './modules/covidApi.js';
+import Mask from './modules/mask.js';
 
-/* Não enviar / atualizar o form =================================*/
-/*document.querySelector("form").addEventListener("submit", event => {
-    console.log("enviar o formulário")
+const mask = new Mask;
+const cep = new Cep;
+const covid = new Covid;
 
-    event.preventDefault()
-})*/
-
+document.getElementById('form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  cep.clearUl();
+  const uf = await cep.cepToState();
+  covid.returnResults(uf);
+});
