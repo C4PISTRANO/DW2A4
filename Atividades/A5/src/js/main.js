@@ -1,6 +1,6 @@
 /* Mascaras =================================*/
 const masks = {
-     nome(value) {
+    nome (value) {
         return value
         .replace(/\d/g, "")
     },
@@ -14,12 +14,12 @@ const masks = {
     },
 
     dt_nasc (value) {
-        return value
-          .replace(/\D+/g, '') // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
-          .replace(/(\d{2})(\d)/, '$1/$2')
-          .replace(/(\/\d{2})(\d)/, '$1/$2')
-          .replace(/(\/\d{4})\d+?$/, '$1') //limitar a quantidade de números
-      },
+      return value
+        .replace(/\D+/g, '') // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
+        .replace(/(\d{2})(\d)/, '$1/$2')
+        .replace(/(\/\d{2})(\d)/, '$1/$2')
+        .replace(/(\/\d{4})\d+?$/, '$1') //limitar a quantidade de números
+    },
    
     fone (value) {
       return value
