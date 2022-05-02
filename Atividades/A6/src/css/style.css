@@ -29,10 +29,14 @@ body {
   color: #fff;
   padding: 30px;
   border-radius: 7px;
+
+  background: rgba(255,255,255,0.4);
+  
 }
 
 .main {
   width: 100%;
+  
 }
 
 .main .form {
@@ -46,11 +50,12 @@ body {
 
 .main .header h2 {
   margin-bottom: 25px;
+  color: rgb(50, 140, 0);
 }
 
 .main .header p {
   margin-bottom: 15px;
-  color: rgb(182, 182, 182);
+  color: rgb(255, 255, 255);
   font-size: 0.95rem;
 }
 
@@ -59,16 +64,16 @@ body {
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 15px;
-  color: rgb(202, 200, 200);
+  color: rgb(0, 0, 0);
 }
 
 .main .form input {
   height: 40px;
   border-radius: 5px;
-  background-color: #1b1f1b;
+  background-color: rgba(255, 255, 255, 0.3);
   outline: none;
-  border: 1px solid rgb(35, 35, 35);
-  color: #fff;
+  border: 1px solid rgba(35, 35, 35, 0.3);
+  color: rgb(0, 0, 0);
   font-size: 1.1rem;
   padding: 0 10px;
   margin-bottom: 3px;
