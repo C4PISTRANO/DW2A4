@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 600px;
+  width: 400px;
   display: flex;
 
   background-color: #242b25;
