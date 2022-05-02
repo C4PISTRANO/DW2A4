@@ -21,6 +21,13 @@ body {
   background-repeat: no-repeat;
 }
 
+body .logo{
+  height: 50px;
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
 .container {
   width: 400px;
   display: flex;
@@ -29,7 +36,8 @@ body {
   color: #fff;
   padding: 30px;
   border-radius: 7px;
-
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255,255,255,0.2);
   background: rgba(255,255,255,0.4);
   
 }
@@ -50,6 +58,7 @@ body {
 
 .main .header h2 {
   margin-bottom: 25px;
+  margin-top: 5px;
   color: rgb(50, 140, 0);
 }
 
@@ -99,6 +108,13 @@ body {
   background-color: #159910;
 }
 
+.main .form button:active {
+  border: #000000;
+  transform: scale(0.99);
+  filter: brightness(50%);
+   
+}
+
 .errorInput {
   border: 2px solid rgb(207, 53, 53) !important;
 }
@@ -110,7 +126,7 @@ a {
 
 a:hover {
 	color: #159910;
-  text-decoration: #313339;
+  text-decoration: #393131;
 }
 
 footer {
