@@ -1,5 +1,9 @@
 /* Mascaras =================================*/
 const masks = {
+     nome(value) {
+        return value
+        .replace(/\d/g, "")
+    },
     cpf (value) {
       return value
         .replace(/\D+/g, '')  // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
