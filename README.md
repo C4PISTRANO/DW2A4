@@ -15,9 +15,9 @@
 
 
 <p align="center">
-  <img alt="dev.finances" src="github/devfinances.png" width="200px">
-  <img alt="dev.finances" src="github/devfinances.png" width="200px">
-  <img alt="dev.finances" src="github/devfinances.png" width="200px">
+  <img alt="dev.finances" src="github/preview1.png" width="200px">
+  <img alt="dev.finances" src="github/preview2.png" width="200px">
+  <img alt="dev.finances" src="github/preview3.png" width="200px">
 </p>
 
 ## 🗃️ Repositório
