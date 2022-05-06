@@ -1,9 +1,11 @@
-<h1 align="center">
-  <img alt="Logo F3RREIRA" title="F3RREIRA" src="github/F3RREIRA.png" width="220px" />
-</h1>
+ <h1 align="center">
+  <a href="https://spo.ifsp.edu.br/">
+     <img alt="Logo IFSP" title="Logo IFSP" src="github/logoIFSP.png" width="220px"/>
+  </a>
+ </h1>
 
 <p align="center">
-  <a href="https://github.com/F3RREIRA/DW2A4">Repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/F3RREIRA/DW2A4/edit/main/README.md#%EF%B8%8F-reposit%C3%B3rio">Repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-ifsp">IFSP</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-curso">Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-disciplina">Disciplina</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,12 +14,7 @@
   <a href="#-publicações">Publicações</a>&nbsp;&nbsp;&nbsp;
  </p>
  
-<p align="center">
-  <img alt="Logo IFSP" title="Logo IFSP" src="github/logoIFSP.png" width="220px" />
- </p>
- 
-
-
+ <br>
 
 ## 🗃️ Repositório
 
@@ -43,22 +40,11 @@ A disciplina Desenvolvimento WEB II aprofunda os conhecimentos acerca do desenvo
 
 ## 💻 Projetos
 
-Para acessar os repositórios com os códigos fonte dos projetos, basta clicar na imagem correspondente:
+Para acessar os repositórios com os códigos fonte dos projetos, basta clicar no link correspondente:
 
-<p align="center">
-  <a href="https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4">
-    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="250px" border-radius="3px">
-  </a>
-  <a href="https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5">
-    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="250px">
-  </a>
-  <a href="https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6">
-    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="250px">
-  </a>
-
-[dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
-[Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
-[Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6)
+- [dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
+- [Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
+- [Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6)
 </p>
 
 
@@ -73,10 +59,22 @@ Os projetos foram desenvolvidos utilizando as seguintes tecnologias:
 
 ## 🌎 Publicações
 
-Para acessar e testar as funcionalidades das páginas criadas, basta clicar no link correspondente:
+Para acessar e testar as funcionalidades das páginas criadas, basta clicar na imagem correspondente:
 
-- [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/)
-- [Form.dev](https://f3rreira.github.io/DW2A4/Atividades/A5)
-- [Pesquisa.Covid](https://f3rreira.github.io/DW2A4/Atividades/A6)
+<p align="center">
+  <a href="https://f3rreira.github.io/DW2A4/Atividades/A4/">
+    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="250px" border-radius="3px">
+  </a>
+  <a href="https://f3rreira.github.io/DW2A4/Atividades/A5">
+    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="250px">
+  </a>
+  <a href="hhttps://f3rreira.github.io/DW2A4/Atividades/A6">
+    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="250px">
+  </a>
+  
 ---
-by [F3ERREIRA](https://github.com/F3RREIRA)
+ <p align="center">
+ <a href="https://github.com/F3RREIRA">
+    <img alt="F3RREIRA" title="F3RREIRA" src="github/F3RREIRA.png" width="200px">
+ </a>
+ </p>
