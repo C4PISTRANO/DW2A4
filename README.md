@@ -18,11 +18,11 @@
 
 ## 🗃️ Repositório
 
-Esse repositório, apresenta os trabalhos desenvolvidos dentro da disciplina de Desenvolvimento WEB II, do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS), no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – IFSP.
+Esse repositório, apresenta os trabalhos desenvolvidos dentro da disciplina de Desenvolvimento WEB II, do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS), no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP.
 
 ## 🏫 IFSP
 
-O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – IFSP – é uma autarquia federal de ensino.
+O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP – é uma autarquia federal de ensino.
 
 Fundada em 1909, como Escola de Aprendizes Artífices, é reconhecida pela sociedade paulista por sua excelência no ensino público gratuito de qualidade.
 
