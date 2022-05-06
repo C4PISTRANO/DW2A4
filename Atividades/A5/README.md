@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="preview" src="github/devfinances.png" width="100%">
+  <img alt="preview" src="src/img/preview.png" width="100%">
 </p>
 
 ## 💻 Projeto
@@ -45,4 +45,4 @@ Você pode acessar e testar a página [Form.dev](https://f3rreira.github.io/DW2A
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-dev.finace$ by [F3ERREIRA](https://github.com/F3RREIRA)
+Form.dev by [F3ERREIRA](https://github.com/F3RREIRA)
