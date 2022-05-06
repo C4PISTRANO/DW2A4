@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo IFSP" title="Logo IFSP" src="github/logoIFSP.png" width="220px" />
+  <img alt="Logo F3RREIRA" title="F3RREIRA" src="github/F3RREIRA.png" width="220px" />
 </h1>
 
 <p align="center">
@@ -12,13 +12,12 @@
   <a href="#-publicações">Publicações</a>&nbsp;&nbsp;&nbsp;
  </p>
  
-
-
 <p align="center">
-  <img alt="dev.finances" src="github/preview1.png" width="200px">
-  <img alt="dev.finances" src="github/preview2.png" width="200px">
-  <img alt="dev.finances" src="github/preview3.png" width="200px">
-</p>
+  <img alt="Logo IFSP" title="Logo IFSP" src="github/logoIFSP.png" width="220px" />
+ </p>
+ 
+
+
 
 ## 🗃️ Repositório
 
@@ -44,11 +43,25 @@ A disciplina Desenvolvimento WEB II aprofunda os conhecimentos acerca do desenvo
 
 ## 💻 Projetos
 
-Para acessar os repositórios com códigos fonte dos projetos, basta clicar no link correspondente:
+Para acessar os repositórios com os códigos fonte dos projetos, basta clicar na imagem correspondente:
 
-- [dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
-- [Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
-- [Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6)
+<p align="center">
+  <a href="https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4">
+    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="250px" border-radius="3px">
+  </a>
+  <a href="https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5">
+    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="250px">
+  </a>
+  <a href="https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6">
+    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="250px">
+  </a>
+
+[dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
+[Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
+[Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6)
+</p>
+
+
 
 ## 🚀 Tecnologias
 
