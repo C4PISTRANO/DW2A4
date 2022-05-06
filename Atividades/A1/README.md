@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="dev.finances" title="dev.finances" src="assets/logo.png" width="220px" />
+  <img alt="dev.finances" title="dev.finances" src="github/logo.png" width="220px" />
 </h1>
 
 <p align="center">
@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src="assets/devfinances.png" width="100%">
+  <img alt="dev.finances" src="github/devfinances.png" width="100%">
 </p>
 
 ## 💻 Projeto
