@@ -68,7 +68,7 @@ Para acessar e testar as funcionalidades das páginas criadas, basta clicar na i
   <a href="https://f3rreira.github.io/DW2A4/Atividades/A5">
     <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="250px">
   </a>
-  <a href="hhttps://f3rreira.github.io/DW2A4/Atividades/A6">
+  <a href="https://f3rreira.github.io/DW2A4/Atividades/A6">
     <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="250px">
   </a>
   
