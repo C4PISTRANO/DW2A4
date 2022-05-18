@@ -1,48 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Formulário de Cadastro</title>
-  </head>
+<html lang="pt-br">
 
-  <body>
-    <div class="container">
-      <div class="main">
-        <div class="header">
-          <h2>Cadastro de Pessoas</h2>
-          <p>Digite os dados do usuário corretamente!</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="header">
+        <h2>Cadastro de Pessoas</h2>
+        <p>Digite os dados do usuário corretamente!</p>
+      </div>
+
+      <form class="form">
+        <label for="nome">NOME</label>
+        <input type="text" class="nome" id="nome" />
+
+        <label for="cpf">CPF</label>
+        <input type="text" class="cpf" id="cpf" />
+
+        <label for="dt_nasc">DATA DE NASCIMENTO</label>
+        <input type="text" class="dt_nasc" id="dt_nasc" />
+
+        <label for="email">E-MAIL</label>
+        <input type="text" class="email" id="email" />
+
+        <label for="fone">TELEFONE</label>
+        <input type="fone" class="fone" id="fone" />
+
+        <label for="cep">CEP</label>
+        <input type="cep" class="cep" id="cep" />
+        <div class="results">
+          <p id="endereco"></p>
         </div>
 
-        <form action="" class="form">
-          <label for="nome">NOME</label>
-          <input required type="text" class="nome" id="nome" data-js="nome"/>
-
-          <label for="cpf">CPF</label>
-          <input required type="text" class="cpf" id="cpf" data-js="cpf" />
-
-          <label for="dt_nasc">DATA DE NASCIMENTO</label>
-          <input required type="text" class="dt_nasc" id="dt_nasc" data-js="dt_nasc" />
-
-          <label for="email">E-MAIL</label>
-          <input required type="email" class="email" id="email" />
-
-          <label for="fone">TELEFONE</label>
-          <input required type="fone" class="fone" id="fone" data-js="fone" />
-
-          <label for="cep">CEP</label>
-          <input required type="cep" class="cep" id="cep" data-js="cep" />
-
-          <button id="button">Cadastrar</button>
-        </form>
-      </div>
+        <button id="button">Cadastrar</button>
+      </form>
     </div>
-    
-    <footer>
-      <p>by <a href="https://github.com/F3RREIRA"><B>F3RREIRA</B></a></p>
-    </footer>
-    
-    <script src="./src/js/main.js"></script>
-  </body>
+  </div>
+
+  <footer>
+    <p>by <a href="https://github.com/F3RREIRA"><B>F3RREIRA</B></a></p>
+  </footer>
+
+  <script type="module">
+    import Main from './src/js/main.js';
+
+    document.getElementById('button').
+      addEventListener("click", Main.submitButton)
+  </script>
+</body>
+
 </html>
+

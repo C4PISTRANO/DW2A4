@@ -17,7 +17,7 @@ const Main = {
             alert('Verifique novamente os campos e preencha-os com dados válidos!')
         } else {
             Validate.pesquisaCEP(Context.cepField.value);
-            alert('Sucesso!')
+            alert('Os dados foram cadastrados com sucesso!')
         }
     },
     formatError: function (field, err) {

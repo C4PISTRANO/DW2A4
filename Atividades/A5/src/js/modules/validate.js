@@ -1,6 +1,10 @@
 const Validate = {
     result: document.getElementById('endereco'),
-  
+    /*
+        Baseado na explicação de José Carlos Macoratti
+        Link: https://www.macoratti.net/alg_cpf.htm
+        Acessado em: 23/04/2022
+    */
     cpf: function (val) {
         let acpf = val.replace(/\D/g, '').split(/(?:)/u)
         let d1 = 0
@@ -88,8 +92,7 @@ const Validate = {
     // https://viacep.com.br/exemplo/javascript/
     cep_callback: function (conteudo) {
         if (!("erro" in conteudo)) {
-            Validate.result.innerText = "O CEP inserido é válido!";
-                //`${conteudo.logradouro}, ${conteudo.bairro}, ${conteudo.localidade} - ${conteudo.uf}`;
+            Validate.result.innerText = ""
         }
         else {
             Validate.result.innerText = "Ocorreu um erro ou o CEP é inválido!";
