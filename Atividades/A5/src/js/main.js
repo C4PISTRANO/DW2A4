@@ -1,56 +1,55 @@
-/* Mascaras =================================*/
-const masks = {
-    nome (value) {
-        return value
-        .replace(/\d/g, "")
-    },
-    cpf (value) {
-      return value
-        .replace(/\D+/g, '')  // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
-        .replace(/(\d{3})(\d)/, '$1.$2')
-        .replace(/(\d{3})(\d)/, '$1.$2')
-        .replace(/(\d{3})(\d{1,2})/, '$1-$2')
-        .replace(/(-\d{2})\d+?$/, '$1') //limitar a quantidade de números
-    },
+import Masks from './modules/mask.js';
+import Validate from './modules/validate.js';
 
-    dt_nasc (value) {
-      return value
-        .replace(/\D+/g, '') // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
-        .replace(/(\d{2})(\d)/, '$1/$2')
-        .replace(/(\/\d{2})(\d)/, '$1/$2')
-        .replace(/(\/\d{4})\d+?$/, '$1') //limitar a quantidade de números
-    },
-   
-    fone (value) {
-      return value
-        .replace(/\D+/g, '') // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
-        .replace(/(\d{2})(\d)/, '($1) $2')
-        .replace(/(\d{4})(\d)/, '$1-$2')
-        .replace(/(\d{4})-(\d)(\d{4})/, '$1$2-$3')
-        .replace(/(-\d{4})\d+?$/, '$1') //limitar a quantidade de números
-    },
-  
-    cep (value) {
-      return value
-        .replace(/\D+/g, '') // deixar somente números, irá substituir tudo que não seja número é trocado por vazio
-        .replace(/(\d{5})(\d)/, '$1-$2')
-        .replace(/(-\d{3})\d+?$/, '$1') //limitar a quantidade de números
-    },
-       
+const Context = {
+    nomeField: document.getElementById('nome'),
+    cpfField: document.getElementById('cpf'),
+    dt_nascField: document.getElementById('dt_nasc'),
+    emailField: document.getElementById('email'),
+    foneField: document.getElementById('fone'),
+    cepField: document.getElementById('cep')
 }
-  
-document.querySelectorAll('input').forEach($input => {
-    const field = $input.dataset.js
-  
-    $input.addEventListener('input', e => {
-      e.target.value = masks[field](e.target.value)
-    }, false)
-})
 
-/* Não enviar / atualizar o form =================================*/
-/*document.querySelector("form").addEventListener("submit", event => {
-    console.log("enviar o formulário")
+const Main = {
+    submitButton: function (event) {
+        event.preventDefault();
+        if (!Main.validate()) {
+            alert('Verifique novamente os campos e preencha-os com dados válidos!')
+        } else {
+            Validate.pesquisaCEP(Context.cepField.value);
+            alert('Sucesso!')
+        }
+    },
+    formatError: function (field, err) {
+        field.classList.toggle('errorInput', err);
+    },
+    validate: function () {
+        for (const field in Context) {
+            if (Validate[Context[field].id] != null) {
+                if (Validate[Context[field].id](Context[field].value) != false) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    },
+    run: function () {
+        for (const field in Context) {
+            if (Validate[Context[field].id] == null) {
+                Context[field].addEventListener('input', (event) => {
+                    Context[field].value = Masks[Context[field].id](Context[field].value)
+                })
+            } else {
+                Context[field].addEventListener('input', (event) => {
+                    Context[field].value = Masks[Context[field].id](Context[field].value)
+                    Main.formatError(Context[field], Validate[Context[field].id](Context[field].value))
+                })
+            }
+        }
+    }
+}
 
-    event.preventDefault()
-})*/
+window.cep_callback = Validate.cep_callback
+Main.run()
 
+export default Main;
