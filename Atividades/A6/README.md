@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+  
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
@@ -18,7 +19,9 @@
 <br>
 
 <p align="center">
-  <img alt="preview" src="src/img/preview.png" width="100%">
+  <a href="https://f3rreira.github.io/DW2A4/Atividades/A6">
+    <img alt="preview" src="src/img/preview.png" width="100%">
+  </a>
 </p>
 
 ## 💻 Projeto
@@ -29,9 +32,9 @@ O [Pesquisa.Covid](https://f3rreira.github.io/DW2A4/Atividades/A6) é uma págin
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
+- <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Javascript</a>
 
 ## :earth_americas: Publicação
 
