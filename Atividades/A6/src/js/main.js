@@ -1,12 +1,12 @@
 import Cep from './modules/cepApi.js';
 import Covid from './modules/covidApi.js';
-import Mask from './modules/mask.js';
+import mask from './modules/mask.js';
 
-const mask = new Mask;
-const cep = new Cep;
-const covid = new Covid;
+document.getElementById('cep').addEventListener('input', async (event) => {
+  event.target.value = mask[event.target.id](event.target.value)
+});
 
-document.getElementById('form').addEventListener('submit', async (e) => {
+document.getElementById('button').addEventListener('submit', async (e) => {
   e.preventDefault();
   cep.clearUl();
   const uf = await cep.cepToState();
