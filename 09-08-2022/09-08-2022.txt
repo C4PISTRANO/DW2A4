@@ -38,8 +38,26 @@ interpretado -> executado linha por linha.
 Exeução: Async -> Carrega e executa em paralelo HTML e Javascript.
 	 Defer -> Carrega em paralelo HTML e Javascript, mas apenas executa o Java script após o fim do HTML.
 
+
 " -> Aspas -> Utilizado para colocar a string.
 ' -> Apóstrofo -> Utilizado para colocar a string dentro de outra string, no HTML.
 ` -> Acento grave -> Utilizado para colocar a template string, para passar o valor de uma variável dentro de uma string.
 
 $ -> Template string, faz a chamada da variável que vem a seguir.
+
+
+Variáveis:
+var -> variável global
+let -> variável local
+const -> constante local
+
+Operadores:
+*x++ -> pré incremento
+*++x -> pós incremento
+
+Operador ternário -> condição ? caso verdadeiro:caso falso
+
+=== -> estritamente igual
+!== -> estritamente diferente
+
+Prioridade dos operadores:
