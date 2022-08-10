@@ -12,4 +12,34 @@ Funcional
 Typescript:
 Surgiu para deixar o Javascript fortemente tipificado.
 
-*Node: interpretador de código javascript, trabalha no backend.
+Extensões VS Code:
+Code runner -> Executar o código.
+Node.js -> Interpretador de código javascript, trabalha no backend.
+Live Share -> Compartilhar ocódigo do projeto, para trabalhar em equipe.
+Live Server -> Abre um servidor, que pode ser acessado pelo navegador web.
+
+
+HTML:
+
+CSS:
+
+JavaScript: interpretado pelo navegador, modelo de execução controlado por eventos, multiparadigma, baseado em objetos, tipagem dinâmica, case-sensitive.
+
+Também é possível trabalhar no Server-side, utilizando node.js e deno.js.
+
+*Como boas práticas, utiliza-se um arquivo JavaScript separado.
+
+*Colocar a tag <script "do JavaScript">  antes da tag </body>.
+
+*Compilador x Interpretador:
+compilado -> executa de uma vez só.
+interpretado -> executado linha por linha.
+
+Exeução: Async -> Carrega e executa em paralelo HTML e Javascript.
+	 Defer -> Carrega em paralelo HTML e Javascript, mas apenas executa o Java script após o fim do HTML.
+
+" -> Aspas -> Utilizado para colocar a string.
+' -> Apóstrofo -> Utilizado para colocar a string dentro de outra string, no HTML.
+` -> Acento grave -> Utilizado para colocar a template string, para passar o valor de uma variável dentro de uma string.
+
+$ -> Template string, faz a chamada da variável que vem a seguir.
