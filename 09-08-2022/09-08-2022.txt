@@ -1,0 +1,15 @@
+Disciplina Desenvolvimento Web II
+
+Prof° Johnata Santicioli
+
+Moodle chave: vite2022-2
+
+Paradigmas de programação:
+Estruturado
+Orientado ao Objeto
+Funcional
+
+Typescript:
+Surgiu para deixar o Javascript fortemente tipificado.
+
+*Node: interpretador de código javascript, trabalha no backend.
