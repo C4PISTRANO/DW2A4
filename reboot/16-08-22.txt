@@ -1,0 +1,11 @@
+Document Object Model - DOM:
+representação da estrutura dentro da HTML document
+
+*para acessar o document no java, utilizaremos "window.document"
+
+para recuperar elementos no HTML:
+id
+classe
+tag
+atribute name
+seletor CSS

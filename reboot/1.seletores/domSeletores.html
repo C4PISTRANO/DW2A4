@@ -1,0 +1,28 @@
+<style>
+  body {
+    font: normal 12pt Arial;
+  }
+</style>
+
+<h2>Seletores</h2>
+<div id="exemplo">Exemplo <strong>ID</strong></div>
+<div class="classe">Exemplo <strong>Class</strong></div>
+<div name="nome">Exemplo <strong>Name</strong></div>
+<p>
+  <a href="https://tableless.com.br/entendendo-o-dom-document-object-model/">
+    Tableless - DOM</a
+  >
+</p>
+<hr />
+<script>
+  let link = document.createElement('a')
+  link.href = 'http://www.ifsp.edu.br/'
+  link.textContent = 'IFSP'
+  document.body.append(link)
+
+  let hr = document.createElement('hr')
+  let divID = document.getElementById('exemplo')
+  document.body.insertBefore(hr, divID)
+
+  divID.addEventListener('click', () => document.body.insertBefore(hr, divID))
+</script>
