@@ -16,13 +16,25 @@
 </p>
 <hr />
 <script>
-  //elementos pais e filhos
-  var divID = document.getElementById('exemplo')
-  console.log(divID.parentElement) //ou
-  console.log(divID.parentNode)
+  //adicionar elementos
+  let link = document.createElement('a')
+  link.href = 'http://www.ifsp.edu.br'
+  link.textContent = 'IFSP- Instituto Federal'
+  document.body.append(link)
 
-  console.log(divID.childNodes) //textos e elementos html
-  console.log(divID.children) //somente elementos html
+  let hr = document.createElement('hr')
+  let divID = document.getElementById('exemplo')
+  document.body.insertBefore(hr, divID)
+
+  // //elementos pais e filhos
+  // var divID = document.getElementById('exemplo')
+  // console.log(divID.parentElement) //ou
+  // console.log(divID.parentNode)
+
+  // console.log(divID.childNodes) //textos e elementos html
+  // console.log(divID.children) //somente elementos html
+
+  // divID.remove() //remover elemento pelo ID
 
   // var divID = document.getElementById('exemplo')
   // document.write(divID.innerHTML)

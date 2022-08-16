@@ -11,4 +11,5 @@ atribute name
 seletor CSS
 
 Em CSS:
-# = buscando id
+# = buscando por id
+. = buscando por classe
