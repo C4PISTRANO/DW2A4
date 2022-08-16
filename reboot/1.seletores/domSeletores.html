@@ -15,14 +15,26 @@
 </p>
 <hr />
 <script>
-  let link = document.createElement('a')
-  link.href = 'http://www.ifsp.edu.br/'
-  link.textContent = 'IFSP'
-  document.body.append(link)
+  var divID = document.getElementById('exemplo')
+  document.write(divID.innerHTML)
 
-  let hr = document.createElement('hr')
-  let divID = document.getElementById('exemplo')
-  document.body.insertBefore(hr, divID)
+  var divClass = document.getElementsByClassName('classe')[0]
+  document.write(divClass.innerText)
 
-  divID.addEventListener('click', () => document.body.insertBefore(hr, divID))
+  var texto = document.getElementsByTagName('h2')[0]
+  texto.innerHTML = 'Tipo Seletores'
+  texto.style.color = 'blue'
+
+  var nome = document.getElementsByName('nome')[0]
+  console.log(nome)
+
+  var seletor = document.querySelector('div#exemplo')
+  seletor.style.background = 'pink'
+
+
+/*
+//Apresentação do DOM
+  window.document.write("Exemplo DOM")
+  document.write('<h3>Boa Noite!!</h3>')
+  document.write(window.document.URL)*/
 </script>

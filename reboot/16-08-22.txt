@@ -9,3 +9,6 @@ classe
 tag
 atribute name
 seletor CSS
+
+Em CSS:
+# = buscando id
