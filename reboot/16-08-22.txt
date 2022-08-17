@@ -13,3 +13,12 @@ seletor CSS
 Em CSS:
 # = buscando por id
 . = buscando por classe
+
+Eventos do Javascript:
+A interatividade entre o usuário e uma página web depende fortemente
+dos eventos (interação do usuário com a página)
+
+Normalmente esses eventos são associados a uma função
+
+*como boas práticas a ação deve ser colocada no Javascript
+

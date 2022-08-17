@@ -6,8 +6,21 @@
   </head>
   <body>
     <h1>Acenda a lâmpada</h1>
-    <img src="imagens/apagada.jpg" id="luz" />
-    <script></script>
+    <img src="imagens/apagada.jpg" id="luz" 
+    onmousemove="mudalampada(1)" 
+    onmouseout="mudalampada(2)" 
+    onclick="mudalampada(3)" />
+
+    <script>
+      var quebrada = false
+      function mudalampada(tipo) {
+        if (tipo == 1) arquivo = 'imagens/acesa.jpg'
+        else if (tipo == 2) arquivo = 'imagens/apagada.jpg'
+        else if (tipo == 3) arquivo = 'imagens/quebrada.jpg'
+
+        if (!quebrada) document.getElementById('luz').src = arquivo
+        if(tipo == 3) quebrada = true
+      }
+    </script>
   </body>
-  <html></html>
 </html>
