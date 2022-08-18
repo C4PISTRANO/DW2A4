@@ -45,6 +45,7 @@ Para acessar os repositórios com os códigos fonte dos projetos, basta clicar n
 - [dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
 - [Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
 - [Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6)
+- [Página de Links](https://github.com/F3RREIRA/DW2A4/tree/main/P%C3%A1gina%20de%20links)
 </p>
 
 
@@ -63,13 +64,16 @@ Para acessar e testar as funcionalidades das páginas criadas, basta clicar na i
 
 <p align="center">
   <a href="https://f3rreira.github.io/DW2A4/Atividades/A4/">
-    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="250px" border-radius="3px">
+    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="200px" border-radius="3px">
   </a>
   <a href="https://f3rreira.github.io/DW2A4/Atividades/A5">
-    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="250px">
+    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="200px">
   </a>
   <a href="https://f3rreira.github.io/DW2A4/Atividades/A6">
-    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="250px">
+    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="200px">
+  </a>
+  <a href="https://f3rreira.github.io/DW2A4/Página de links">
+    <img alt="Página de Links" title="Página de Links" src="Página de links/src/img/preview.png" width="200px">
   </a>
   
 ---
