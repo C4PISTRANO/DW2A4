@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teste Javascript</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Acenda a lâmpada</h1>
+    <img src="imagens/apagada.jpg" id="luz"/>
+
+    <script>
+      var quebrada = false
+      document.getElementById('luz').onmousemove = () => {
+        if (!quebrada) document.getElementById('luz').src = 'imagens/acesa.jpg'
+      }
+      document.getElementById('luz').onmouseleave = () => {
+        if (!quebrada) document.getElementById('luz').src = 'imagens/apagada.jpg'
+      }
+      document.getElementById('luz').ondbclick = () => {
+        if (!quebrada) document.getElementById('luz').src = 'imagens/quebrada.jpg'
+        quebrada = true
+      }
+          
+    </script>
+  </body>
+</html>

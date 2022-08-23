@@ -1,0 +1,70 @@
+<style>
+  body {
+    font: normal 12pt Arial;
+  }
+</style>
+
+<h2>Seletores</h2>
+<div id="exemplo">Exemplo <strong>ID</strong></div>
+<div class="classe">Exemplo <strong>Class</strong></div>
+<div name="nome">Exemplo <strong>Name</strong></div>
+<p>
+  <a teste="riva"
+  href="https://tableless.com.br/entendendo-o-dom-document-object-model/">
+    Tableless - DOM</a
+  >
+</p>
+<hr />
+<script>
+  //adicionar elementos
+  let link = document.createElement('a')
+  link.href = 'http://www.ifsp.edu.br'
+  link.textContent = 'IFSP- Instituto Federal'
+  document.body.append(link)
+
+  let hr = document.createElement('hr')
+  let divID = document.getElementById('exemplo')
+  document.body.insertBefore(hr, divID)
+
+  // //elementos pais e filhos
+  // var divID = document.getElementById('exemplo')
+  // console.log(divID.parentElement) //ou
+  // console.log(divID.parentNode)
+
+  // console.log(divID.childNodes) //textos e elementos html
+  // console.log(divID.children) //somente elementos html
+
+  // divID.remove() //remover elemento pelo ID
+
+  // var divID = document.getElementById('exemplo')
+  // document.write(divID.innerHTML)
+
+  // var divClass = document.getElementsByClassName('classe')[0]
+  // document.write(divClass.innerText)
+
+  // var texto = document.getElementsByTagName('h2')[0]
+  // texto.innerHTML = 'Tipo Seletores'
+  // texto.style.color = 'blue'
+
+  // var nome = document.getElementsByName('nome')[0]
+  // console.log(nome)
+
+  // var seletor = document.querySelector('div#exemplo')
+  // seletor.style.background = 'pink'
+
+  // var seletorAll = document.querySelectorAll('a')[0]
+  // document.write(seletorAll.getAttribute('teste'))
+  
+  // document.write('<br')
+  // console.log(seletorAll.href)
+
+  // seletorAll.setAttribute('href', 'http://www.ifsp.com.br/')
+  // //ou
+  // seletorAll.href = 'http://www.ifsp.com.br/'
+
+/*
+//Apresentação do DOM
+  window.document.write("Exemplo DOM")
+  document.write('<h3>Boa Noite!!</h3>')
+  document.write(window.document.URL)*/
+</script>
