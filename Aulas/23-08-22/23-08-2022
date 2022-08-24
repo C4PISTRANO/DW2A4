@@ -10,4 +10,26 @@ Apresentação da ferramenta, uma espécie de aula, pesquisa e utilização, com
 
 JSON: Estruturas de Dados
 
+FUNÇÕES DO JAVASCRIPT:
+
+*sempre é retornado um valor...
+
+Funções nativas:
+eval
+parseint
+parsefloat
+escape
+alert
+existem várias outras...
+
+Expressão de função:
+quando precisamos passar determinado parâmetro em outra função.
+
+Função anônima -> função que não tem nome.
+
+Arrow Function "=>" 
+
+método "foreach" no array -> varre todos os elementos, mas não retorna nada.
+método "map" no array -> varre todos os elementos e devolve um vetor
+
 
