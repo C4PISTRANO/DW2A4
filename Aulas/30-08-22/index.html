@@ -1,17 +1,51 @@
-<script>
-    const url ="https://viacep.com.br/ws/01001000/json"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fetch API</h1>
+    <form>
+        
+        <div>CEP:<input name="cep" value="01001000"></div>
+        <div>Cidade:<input name="cidade" disabled></div>
+        <div>Rua:<input name="logradouro" disabled></div>
+        <div>Bairro:<input name="bairro" disabled></div>
+    </form>
+    <script>
+        
+        const $campoCEP = document.querySelector('[name="cep"]')
+        const $campoCidade = document.querySelector('[name="cidade"]')
+        const $campoLogradouro = document.querySelector('[name="logradouro"]')
+        const $campoBairro = document.querySelector('[name="bairro"]')
+        $campoCEP.addEventListener("blur", infoEvento => {
+            console.log(infoEvento)
+            const cep = infoEvento.target.value
+            $campoCidade.value=""
+            $campoLogradouro.value=""
+            $campoBairro.value=""
+        
+    
+        fetch(`https://viacep.com.br/ws/${cep}/json`)
+        //response recebe dados de resposta da API
+        .then(function(resposta){
+            return resposta.json()
+        })
+        .then(function(dadosCEP){
+            console.log(dadosCEP)
+            $campoCidade.value = dadosCEP.localidade
+            $campoLogradouro.value = dadosCEP.logradouro
+            $campoBairro.value = dadosCEP.bairro
+        })
+        //Executando em caso de erro
+        .catch(err => alert("Erro ao acessar o Via CEP!! " + err))
+        
+    })
+        </script> 
+</body>
+</html>
 
-    fetch(url)
-    //response recebe dados de resposta da API
-    .then(response => response.json())
-    .then(dataCEP =>
-        {
-            console.log(dataCEP)
-            document.write(dataCEP.bairro);
-            document.write(dataCEP.localidade);
-        }
 
-    )
-    //Executando em caso de erro
-    .catch(err => console.log("Via CEP " + err))
-</script>
