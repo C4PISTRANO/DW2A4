@@ -1,0 +1,17 @@
+<script>
+    const url ="https://viacep.com.br/ws/01001000/json"
+
+    fetch(url)
+    //response recebe dados de resposta da API
+    .then(response => response.json())
+    .then(dataCEP =>
+        {
+            console.log(dataCEP)
+            document.write(dataCEP.bairro);
+            document.write(dataCEP.localidade);
+        }
+
+    )
+    //Executando em caso de erro
+    .catch(err => console.log("Via CEP " + err))
+</script>
