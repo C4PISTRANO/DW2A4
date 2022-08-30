@@ -1,0 +1,16 @@
+Revisão Javascript:
+
+JSON -> anotação de objetos utilizando javascript. Mais leve que o XML (extensão .json)
+anteriormente utilizava-se o XML.
+
+Possui leitura simples, analisador mais fácil,
+
+[] -> representa o array
+{} -> representa o objeto
+
+Métodos JS
+stringify() -> converte objeto para json
+
+
+*Utilizamos esse método para enviar para API
+
