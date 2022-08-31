@@ -8,9 +8,39 @@ Possui leitura simples, analisador mais fácil,
 [] -> representa o array
 {} -> representa o objeto
 
-Métodos JS
-stringify() -> converte objeto para json
+Tipos de dados aceitos:
+ Dados nulos – null
+ Númericos – 1, 2, 3.14
+ Strings – “Olá Mundo”
+ Arrays – [1, 2, 3, “dez”]
+ Objetos – {“nome” : “Natan” }
+
+Métodos JS:
+stringify() -> converte o objeto para json
+parse() -> converte o json para objeto
+*Utilizamos esse método para enviar para API (utilizado atualmente em novas aplicações)
 
 
-*Utilizamos esse método para enviar para API
+AJAX -> Javascript assincrono com XML (utilizado, por exemplo, para carregar endereço atraves da entrada do CEP ou navegar nas pastas do e-mail).
+
+API ->
+interface de Programação de Aplicativos
+SOAP, RPC, WebSocket e REST. (estudar o REST)
+
+Backend (Banco de Dados) + API (faz a conversão) >> Frontend (S.O. / Browsers).
+
+
+FatchAPI-> interface para buscar recursos em toda a internet e manipular.
+Estrutura do Fetch API
+ fetch( ) => executa a busca dos recurso
+ then( ) => método utilizado para manipular os dados
+ catch( ) => método utilizado para tratamento de exceções (erros)
+ 
+ *pesquisar Emmet Abreviation
+
+
+
+
+
+
 
