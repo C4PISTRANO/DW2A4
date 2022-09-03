@@ -12,6 +12,7 @@ body {
   width: 100vw;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -94,4 +95,24 @@ body {
 
 .errorInput {
   border: 2px solid rgb(207, 53, 53) !important;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1540dd;
+}
+
+footer {
+	text-align: center;
+	padding: 2rem 0 0rem;
+	color: #fff;
+	opacity: 1;
+
+  display: flex;
+  
+	align-items: center;
 }
