@@ -14,3 +14,9 @@ No ECMA 2022
 
 Encapsulamento -> Validar os dados dentro da classe.
 
+*Classe -> "molde" para criar o objeto.
+
+Métodos Assessores Estáticos:
+ajuda no acesso aos atributos da classe
+
+
