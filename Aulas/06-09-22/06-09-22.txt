@@ -17,6 +17,8 @@ Encapsulamento -> Validar os dados dentro da classe.
 *Classe -> "molde" para criar o objeto.
 
 Métodos Assessores Estáticos:
-ajuda no acesso aos atributos da classe
+ajuda no acesso aos atributos da classe.
+
+*Hoisting -> faz o içamento de todas as variáveis e funções, são executadas primeiro.
 
 
