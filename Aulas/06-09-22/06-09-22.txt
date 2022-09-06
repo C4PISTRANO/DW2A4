@@ -1,0 +1,16 @@
+ECMAScript e JavaScript
+
+ECMAScript -> Padronização para navegadores
+
+Lançada em 1995
+Atual ES2022 (13th edition, June 2022)
+
+*Promisse -> conjunto de códigos que podem ser executados ou não. (isso pq precisamos aguradar a resposta da API).
+
+*async -> continua esperando a resporta da API
+
+No ECMA 2022 
+-> Não existe mais o uso do async junto com await.
+
+Encapsulamento -> Validar os dados dentro da classe.
+
