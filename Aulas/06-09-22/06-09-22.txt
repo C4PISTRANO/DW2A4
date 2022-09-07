@@ -22,3 +22,12 @@ ajuda no acesso aos atributos da classe.
 *Hoisting -> faz o içamento de todas as variáveis e funções, são executadas primeiro.
 
 
+*VAR funciona como local dentro da função. 
+
+*LET local dentro de um bloco
+
+*CONST 
+
+Utilizar sempre let e const com oboas práticas.
+
+
