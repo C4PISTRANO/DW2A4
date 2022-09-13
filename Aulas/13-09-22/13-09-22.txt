@@ -1,0 +1,25 @@
+BOAS PRÁTICAS DESENVOLVIMENTO WEB:
+
+Case Style:
+Camel Case -> variaveis e constatantes, Métodos e funções
+
+
+Sintaxe expandida:
+Separa os operadores, valores, etc.
+
+Operador ternário:
+Usar em uma linha única.
+
+Sempre usar o let e const, não usar o var
+
+Usar sempre os operadores estritos
+
+Sempre utilizar o template string (` $ {} `), ao invés
+
+Sempre utilizar chaves no if, para ficar claro.
+
+Script sempre no final do HTML.
+
+Declarar as variáveis fora dos comandos / funções.
+
+Utilizar os métodos nativos.
