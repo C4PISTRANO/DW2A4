@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Métodos Nativos</title>
 </head>
 <body>
-    
+    <div id="lista">
+
+    </div>
+    <script>
+        const arr = ['item 1', 'item 2', 'item 3'];
+        const list = [];
+        /*const list = '<ul><li>' + arr.join('</li><li>') + '</li></ul>';
+            document.getElementById("lista").innerHTML = list;*/
+            for (const iterator of arr) {
+                list.append(iterator);
+            }
+    </script>
 </body>
 </html>

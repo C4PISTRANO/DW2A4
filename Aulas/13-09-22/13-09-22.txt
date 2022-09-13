@@ -23,3 +23,17 @@ Script sempre no final do HTML.
 Declarar as variáveis fora dos comandos / funções.
 
 Utilizar os métodos nativos.
+
+Reduzir a quantidade de variáveis -> Criar objetos, com propriedades.
+
+setInterval e setTimeOut -> sempre utilizar essa função.
+
+sempre utilizar {} e [] para criar objetos e vetores
+
+separar criação de variáveis com (,) declarando o tipo apenas uma vez.
+
+LINT (fiapo): 
+
+Code smell (O que precisamos evitar):
+Sempre
+
