@@ -32,8 +32,16 @@ sempre utilizar {} e [] para criar objetos e vetores
 
 separar criação de variáveis com (,) declarando o tipo apenas uma vez.
 
-LINT (fiapo): 
+LINT (fiapo) -> Checagem automática pra previnir e/ou
+solucionar erros enquanto escrevemos códigos.
+Linters JavaScript: ESLint, JSLint, JSHint e Lynt (node e npm)
 
 Code smell (O que precisamos evitar):
-Sempre
-
+	- Código muito grande (Bloaters)
+	- Violação a orientação a objetos (Object-Orientation Abusers)
+	- Inibidores de modificação (Change Preventers)
+	    - Reescrever para tornar o código modular e de possível evolução
+	- Código dispensável (Dispensables)
+	    - Comentário excessivos
+	- Acopladores (Couplers)
+	    - Classes que dependem de outras classes

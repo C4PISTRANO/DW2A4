@@ -1,0 +1,31 @@
+Trabalho sobre Frameworks: "uma mini aula"
+
+Desenvolvido pelo Facebook
+
+Atualmente tem o código aberto e esá disponível no Github.
+
+Com o React Native a sua aplicação, bem como toda a lógica interna a ela, é toda escrita e executada em JavaScript, o que te possibilita ter um UI (User Interface) totalmente nativo.
+
+o código e meios de uso do React Native são muito semelhantes à forma como os fazíamos com o React, com declarações JavaScript relativas às UIs, mas por detrás de tudo as interfaces do mesmo tem suporte em controllers específicos da biblioteca, em vez de em elementos do objeto DOM.
+
+
+Implementação:
+
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
+
+class HelloWorldApp extends Component {
+  render() {
+    return (
+      <View style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center"
+        }}>
+        <Text>Hello, world!</Text>
+      </View>
+    );
+  }
+}
+
+export default HelloWorldApp;
