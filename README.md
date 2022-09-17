@@ -32,7 +32,7 @@ Com a transformação em Instituto, em dezembro de 2008, passou a ter relevânci
 
 ## 👨‍💻 Curso
 
-O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) do Câmpus São Paulo tem como objetivo capacitar o egresso a atuar na área de Tecnologia de Informação e Comunição (TIC) em atividades como análise, projeto, implementação, gerenciamento e implantação de sistemas de informação. Esta capacitação é pautada pela valorização da autonomia do estudante, prática em competências técnicas, e atualização diante da realidade tecnológica, de modo que o profissional seja um mediador competente entre o desenvolvimento tecnológico e a sociedade em que se insere. Acesse o portal do [IFSP](https://spo.ifsp.edu.br/tads) para mais informações.
+O Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) do Câmpus São Paulo tem como objetivo capacitar o egresso a atuar na área de Tecnologia de Informação e Comunicação (TIC) em atividades como análise, projeto, implementação, gerenciamento e implantação de sistemas de informação. Esta capacitação é pautada pela valorização da autonomia do estudante, prática em competências técnicas, e atualização diante da realidade tecnológica, de modo que o profissional seja um mediador competente entre o desenvolvimento tecnológico e a sociedade em que se insere. Acesse o portal do [IFSP](https://spo.ifsp.edu.br/tads) para mais informações.
 
 ## 📚 Disciplina
 
