@@ -37,7 +37,7 @@ function preencherResultados(data) {
 function formatarDate(value) {
   const date = new Date(value);
   let day = date.getDate();
-  let month = date.getMonth() + 1;
+  let month = date.getMonth() + 2;
   let year = date.getFullYear();
   return `${day}/${month}/${year}`;
 }
