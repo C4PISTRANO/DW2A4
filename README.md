@@ -44,7 +44,7 @@ Para acessar os repositórios com os códigos fonte dos projetos, basta clicar n
 
 - [dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
 - [Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
-- [Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A6)
+- [Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/4A)
 - [Página de Links](https://github.com/F3RREIRA/DW2A4/tree/main/P%C3%A1gina%20de%20links)
 </p>
 
