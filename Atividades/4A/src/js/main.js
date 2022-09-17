@@ -20,7 +20,7 @@ button.addEventListener("click", (e) => {
 });
 
 cepInput.addEventListener("input", (e) => {
-  e.target.value = Mascara.cep(e.target.value);
+  e.target.value = mascara.cep(e.target.value);
 });
 
 function preencherResultados(data) {
@@ -38,7 +38,5 @@ function formatarDate(value) {
   let day = date.getDate();
   let month = date.getMonth() + 1;
   let year = date.getFullYear();
-  let hours = date.getHours();
-  let minutes = date.getMinutes();
-  return `${day}/${month}/${year} às ${hours}:${minutes} (Horário de Brasilia)`;
+  return `${day}/${month}/${year}`;
 }
