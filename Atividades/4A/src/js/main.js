@@ -14,7 +14,7 @@ button.addEventListener("click", (e) => {
         preencherResultados(dataCovid);
       });
     } else {
-      alert("CEP incorreto!");
+      alert("CEP incorreto! Insira um CEP válido.");
     }
   });
 });

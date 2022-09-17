@@ -54,13 +54,15 @@ body {
 }
 
 .main .header {
-  text-align: center;
+  text-align: center; 
 }
 
 .main .header h2 {
   margin-bottom: 25px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
   color: rgb(34, 136, 202);
+  text-align: center; 
 }
 
 .main .header p {
