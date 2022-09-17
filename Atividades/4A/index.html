@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,18 +20,26 @@
 
         <form action="" class="form" id="form">
           
-          <label for="cep">Insira o CEP e clique em pesquisar</label>
-          <input required type="cep" class="cep" id="cep" data-js="cep" />
+          <label id="label" for="cep">Insira o CEP e clique em pesquisar</label>
+          <input required type="text" class="cep" id="cep" data-js="cep" />
 
-          <button id="button">Pesquisar</button>
+          <button class="button" id="button">Pesquisar</button>
         </form>
+
+        <div class="output">
+          <p>Estado: <span id="span_estado"></span></p>
+          <p>Casos: <span id="span_casos"></span></p>
+          <p>Mortes: <span id="span_mortes"></span></p>
+          <p id="update">Última atualização: <span id="span_atualizacao"></span></p>
+        </div>
+
       </div>
     </div>
     
-    <footer>
+    <footer class="footer">
       <p>by <a href="https://github.com/F3RREIRA"><B>F3RREIRA</B></a></p>
     </footer>
     
-    <script src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

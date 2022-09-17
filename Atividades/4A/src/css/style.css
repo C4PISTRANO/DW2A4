@@ -120,6 +120,10 @@ body {
   border: 2px solid rgb(207, 53, 53) !important;
 }
 
+span {
+  color: rgb(34, 136, 202);
+}
+
 a {
 	color: #fff;
 	text-decoration: none;
