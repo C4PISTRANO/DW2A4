@@ -126,6 +126,10 @@ span {
   color: rgb(34, 136, 202);
 }
 
+.output {
+  text-align: center;
+}
+
 a {
 	color: #fff;
 	text-decoration: none;

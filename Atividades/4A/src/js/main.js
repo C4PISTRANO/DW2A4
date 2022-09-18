@@ -9,8 +9,10 @@ button.addEventListener("click", (e) => {
   Promise.all([consultaCep(cepInput.value)]).then((dataCep) => {
     dataCep = Object.values(dataCep[0]);
     let uf = dataCep[5];
-    if (uf != undefined) {
-      Promise.all([covidBrasilApi(uf)]).then((dataCovid) => {
+    let city = dataCep[4];
+
+    if (uf != undefined) { 
+        Promise.all([covidBrasilApi(uf)]).then((dataCovid) => {
         preencherResultados(dataCovid);
       });
     } else {
@@ -25,8 +27,8 @@ cepInput.addEventListener("input", (e) => {
 
 function preencherResultados(data) {
   data = data[0];
-  document.querySelector("#span_estado").innerHTML = data.state;
-  document.querySelector("#span_cidade").innerHTML = data.uf;
+  document.querySelector("#span_estado").innerHTML = ` ${data.state} - ${data.uf}`;
+  // document.querySelector("#span_cidade").innerHTML = data.city;
   document.querySelector("#span_casos").innerHTML = data.cases;
   document.querySelector("#span_mortes").innerHTML = data.deaths;
   document.querySelector("#span_atualizacao").innerHTML = formatarDate(
@@ -37,7 +39,7 @@ function preencherResultados(data) {
 function formatarDate(value) {
   const date = new Date(value);
   let day = date.getDate();
-  let month = date.getMonth() + 2;
+  let month = date.getMonth() +1 ;
   let year = date.getFullYear();
   return `${day}/${month}/${year}`;
 }
