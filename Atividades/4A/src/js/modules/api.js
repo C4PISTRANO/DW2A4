@@ -7,7 +7,7 @@ export async function consultaCep(value) {
       return responseResult;
     } catch (error) {
       console.log(error);
-      alert("Erro ao consultar CEP na API! Informe um CEP válido.");
+      alert("Erro ao consultar CEP na API!\nInforme um CEP válido.");
     }
   }
   
