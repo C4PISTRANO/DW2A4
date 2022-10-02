@@ -24,7 +24,7 @@
 
 ## 💻 Projeto
 
-O [dev.finace$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) é uma aplicação web de controle financeiro, onde é possível inserir e excluir transações, ver os saldos de entradas, saídas e atual.
+O [dev.finance$](https://f3rreira.github.io/DW2A4/Atividades/A4/#1) é uma aplicação web de controle financeiro, onde é possível inserir e excluir transações, ver os saldos de entradas, saídas e atual.
 
 ## 🚀 Tecnologias
 
