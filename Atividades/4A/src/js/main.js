@@ -27,7 +27,7 @@ cepInput.addEventListener("input", (e) => {
 
 function preencherResultados(data) {
   data = data[0];
-  document.querySelector("#span_estado").innerHTML = `${data.state} - ${data.uf}`;
+  document.querySelector("#span_estado").innerHTML = data.state;
   // document.querySelector("#span_cidade").innerHTML = data.city;
   document.querySelector("#span_casos").innerHTML = data.cases;
   document.querySelector("#span_mortes").innerHTML = data.deaths;
