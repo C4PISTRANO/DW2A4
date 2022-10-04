@@ -1,0 +1,51 @@
+SPA
+
+*Não é muito bom para o SEO.
+
+Angular, React e VUE
+
+Utilizar o Node.js junto com o React para fazer o gerenciamnetode pacotes.
+
+npm ou yarn
+
+JSX -> renderização para transformar o js em HTML. (mistura funções js com tags html).
+
+Em react utilizamos o Virtual DOM, "cópia do DOM", ele guarda dados no cahce e trabalha de forma mais rápida.
+
+Componente -> Partes do nosso código. Cada um será representado por um arquivo.
+		Pode conter vários outros componentes dentro deles.
+		
+props -> palavra reservada, para passar os valor para os componentes.
+	Dinamicas
+	
+Props, são imutáveis, somente para leitura.
+
+------------------------------------
+
+Babel -> Transpilador Javascript, mais conhecido, utilizado para fazer um "downgrade de versão" para compatibilidade de navegadores antigos.
+
+*Transpiler (transpilação), conversão de códigos fonte para outra linguagem ou mesma linguagem.
+
+ 	-> cli
+Babel	-> core
+	-> present-env
+	
+Webpack -> empacotador, transforma os códigos/arquivos, js, css e imagem, em um uńico arquivo, diminuindo o tamamho do projeto e aumentando a velocidade de resposta.
+
+*bundle -> converter/juntar arquivos.
+------------------------------------------
+
+state -> vai guardar o valor do elemento.
+
+*useState -> método para salvar o estado de uma variável.
+		Vai retornar um vetor com variável e uma função.
+		
+React pode trabalhar com:
+(extensões dos arquivos).
+JS
+JSX
+
+TS
+TSX -> superset javascript -> Melhoria do js, programação mais fiel à orientação ao objeto.
+ 
+
