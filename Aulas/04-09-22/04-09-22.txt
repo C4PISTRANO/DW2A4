@@ -49,3 +49,16 @@ TS
 TSX -> superset javascript -> Melhoria do js, programação mais fiel à orientação ao objeto.
  
 
+
+Atividade 5:
+
+Testar o babel através do seguinte comando:
+Utilizando o npm
+
+yarn babel src/index.jsx -o dist/bundle.js
+npx  babel src/index.jsx -o dist/bundle.js
+
+
+Video 3 _ 12:19
+
+
