@@ -1,0 +1,13 @@
+Links atividades:
+
+A6:
+https://www.youtube.com/playlist?list=PLDZ7IJTRkylackIyzvYBaoIeEBD9NUhGd
+
+*Comnado NPM:
+npm install -> instalar node_modules
+npm run dev -> rodar o script, para abrir página local host (http://localhost:8080)
+
+
+
+A7:
+https://www.youtube.com/watch?v=edXudaVB0Bg
