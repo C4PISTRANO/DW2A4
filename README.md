@@ -79,6 +79,6 @@ Para acessar e testar as funcionalidades das páginas criadas, basta clicar na i
 ---
  <p align="center">
  <a href="https://github.com/F3RREIRA">
-    <img alt="F3RREIRA" title="F3RREIRA" src="github/F3RREIRA.png" width="200px">
+    <img alt="F3RREIRA" title="F3RREIRA" src="https://github.com/F3RREIRA/Portifolio/blob/main/github/logo.png" width="200px">
  </a>
  </p>
