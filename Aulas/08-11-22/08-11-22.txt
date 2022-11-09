@@ -1,0 +1,8 @@
+Não precisa guardar a pasta "node_modules", pq sempre tenho que intalar ela com o comando:
+npm install
+
+esse comando vai criar a pasta "node_modules" com todas as dependencias do arquivo "package.json".
+
+Depois utilizo o comando: "npm run dev" para rodar a aplicação.
+
+Parei no video 1 ->1:42:23 -> Acessibilidade.
