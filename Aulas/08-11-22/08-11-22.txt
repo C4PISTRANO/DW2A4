@@ -5,4 +5,4 @@ esse comando vai criar a pasta "node_modules" com todas as dependencias do arqui
 
 Depois utilizo o comando: "npm run dev" para rodar a aplicação.
 
-Parei no video 1 ->1:42:23 -> Acessibilidade.
+Finalizado video 1 -> NLW
