@@ -74,7 +74,7 @@ body {
   border: none;
   background-color: #FFC700;
   color: #000;
-  transition: color .7s;
+  transition: color 1s;
 	
   align-items: center;
   text-align: center;
