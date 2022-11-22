@@ -1,2 +1,14 @@
 Continuando NLW Aula 2
 
+
+Criar protifólio no Vercel
+
+
+https://f3rreira.vercel.app/
+
+
+https://the-stock-trader-lukkanog.vercel.app/
+
+
+
+Fazer deploy usando o vercel.
