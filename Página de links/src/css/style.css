@@ -89,6 +89,7 @@ body {
 
 .main button:hover {
   background-color: #fff;
+  transition: color .7s;
 }
 
 .main button:active {
