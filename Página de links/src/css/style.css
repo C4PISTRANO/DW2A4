@@ -74,6 +74,8 @@ body {
   border: none;
   background-color: #FFC700;
   color: #000;
+  transition: color .7s;
+	
   align-items: center;
   text-align: center;
   
@@ -89,7 +91,6 @@ body {
 
 .main button:hover {
   background-color: #fff;
-  transition: color .7s;
 }
 
 .main button:active {
