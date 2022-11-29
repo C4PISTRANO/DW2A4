@@ -4,6 +4,7 @@ Continuando NLW Aula 2
 Criar protifólio no Vercel
 
 
+Criar este link para deploy 
 https://f3rreira.vercel.app/
 
 
