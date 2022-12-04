@@ -1,4 +1,4 @@
-Continuando NLW Aula 2
+Continuar NLW Aula 3
 
 
 Criar protifólio no Vercel
@@ -8,6 +8,7 @@ Criar este link para deploy
 https://f3rreira.vercel.app/
 
 
+Site de exemplo:
 https://the-stock-trader-lukkanog.vercel.app/
 
 
