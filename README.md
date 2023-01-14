@@ -5,7 +5,7 @@
  </h1>
 
 <p align="center">
-  <a href="https://github.com/F3RREIRA/DW2A4/blob/main/README.md#-repositório">Repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/C4PISTRANO/DW2A4/blob/main/README.md#-repositório">Repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-ifsp">IFSP</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-curso">Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-disciplina">Disciplina</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -42,10 +42,10 @@ A disciplina Desenvolvimento WEB II aprofunda os conhecimentos acerca do desenvo
 
 Para acessar os repositórios com os códigos fonte dos projetos, basta clicar no link correspondente:
 
-- [dev.finace$](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A4)
-- [Form.dev](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/A5)
-- [Pesquisa.Covid](https://github.com/F3RREIRA/DW2A4/tree/main/Atividades/4A)
-- [Página de Links](https://github.com/F3RREIRA/DW2A4/tree/main/P%C3%A1gina%20de%20links)
+- [dev.finace$](https://github.com/C4PISTRANO/DW2A4/tree/main/Atividades/A4)
+- [Form.dev](https://github.com/C4PISTRANO/DW2A4/tree/main/Atividades/A5)
+- [Pesquisa.Covid](https://github.com/C4PISTRANO/DW2A4/tree/main/Atividades/4A)
+- [Página de Links](https://github.com/C4PISTRANO/DW2A4/tree/main/P%C3%A1gina%20de%20links)
 </p>
 
 
@@ -63,22 +63,22 @@ Os projetos foram desenvolvidos utilizando as seguintes tecnologias:
 Para acessar e testar as funcionalidades das páginas criadas, basta clicar na imagem correspondente:
 
 <p align="center">
-  <a href="https://f3rreira.github.io/DW2A4/Atividades/A4/">
+  <a href="https://c4pistrano.github.io/DW2A4/Atividades/A4/">
     <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="200px" border-radius="3px">
   </a>
-  <a href="https://f3rreira.github.io/DW2A4/Atividades/A5">
+  <a href="https://c4pistrano.github.io/DW2A4/Atividades/A5">
     <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="200px">
   </a>
-  <a href="https://f3rreira.github.io/DW2A4/Atividades/4A/">
+  <a href="https://c4pistrano.github.io/DW2A4/Atividades/4A/">
     <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="200px">
   </a>
-  <a href="https://f3rreira.github.io/DW2A4/Página de links">
+  <a href="https://c4pistrano.github.io/DW2A4/Página de links">
     <img alt="Página de Links" title="Página de Links" src="Página de links/src/img/preview.png" width="200px">
   </a>
   
 ---
  <p align="center">
- <a href="https://github.com/F3RREIRA">
-    <img alt="F3RREIRA" title="F3RREIRA" src="https://github.com/F3RREIRA/Portifolio/blob/main/github/logo.png" width="200px">
+ <a href="https://github.com/C4PISTRANO">
+    <img alt="Logo C4PISTRANO" title="C4PISTRANO" src="https://github.com/C4PISTRANO/Portifolio/blob/main/github/logo.png" width="200px">
  </a>
  </p>
