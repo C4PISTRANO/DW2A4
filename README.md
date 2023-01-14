@@ -72,10 +72,13 @@ Para acessar e testar as funcionalidades das páginas criadas, basta clicar na i
   <a href="https://c4pistrano.github.io/DW2A4/Atividades/4A/">
     <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="200px">
   </a>
+  
+<!--
   <a href="https://c4pistrano.github.io/DW2A4/Página de links">
     <img alt="Página de Links" title="Página de Links" src="Página de links/src/img/preview.png" width="200px">
   </a>
-  
+-->  
+
 ---
  <p align="center">
  <a href="https://github.com/C4PISTRANO">
