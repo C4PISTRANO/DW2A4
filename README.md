@@ -1,6 +1,6 @@
  <h1 align="center">
   <a href="https://spo.ifsp.edu.br/">
-     <img alt="Logo IFSP" title="Logo IFSP" src="github/logoIFSP.png" width="220px"/>
+     <img alt="Logo IFSP" title="Logo IFSP" src="https://github.com/C4PISTRANO/Github/blob/main/LogoIFSP.png" width="220px"/>
   </a>
  </h1>
 
