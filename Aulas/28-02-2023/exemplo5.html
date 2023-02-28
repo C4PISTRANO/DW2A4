@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<tite>Exemplo 5</title>
+		<meta charset="utf-8">
+		<script>
+			var nota1 = parseFloat (prompt("Informe o primeira nota"))
+			var nota2 = parseFloat (prompt("Informe o segunda nota"))
+		</script>
+	</head>
+	<body>
+		<h1>Corpo da página</h1>
+		<script>
+			var media = (nota1 + nota2)/2
+			if (media >= 6)
+			{
+				document.write("Aprovado")
+			}
+			else if (media >= 4 && media < 6)
+			{
+				document.write("Exame")
+			}
+			else 
+			{
+				document.write("Reprovado")
+			}
+		</script>
+	
+	</body>
+</html>
