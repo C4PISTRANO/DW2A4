@@ -1,2 +1,13 @@
 28/02/2023 DW2A4 Professor Frank
 
+for = trabalhar com objetos e arrays
+while = outros
+
+functions
+
+variáveis
+
+do while x while: verificação no final do bloco x verificação no início do bloco.
+
+estrutura de dados:
+fila x pilha
