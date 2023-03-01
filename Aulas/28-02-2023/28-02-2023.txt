@@ -3,11 +3,19 @@
 for = trabalhar com objetos e arrays
 while = outros
 
-functions
+function
 
 variáveis
 
 do while x while: verificação no final do bloco x verificação no início do bloco.
 
 estrutura de dados:
-fila x pilha
+fila = primeiro a entrar é o primeiro a sair
+x 
+pilha
+
+ordenar
+
+Manual do mundo - ChatGPT
+
+ECMA = padronização do javascript
