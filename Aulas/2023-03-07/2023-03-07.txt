@@ -1,0 +1,1 @@
+pop = comando para retirar o último elemento do array.
