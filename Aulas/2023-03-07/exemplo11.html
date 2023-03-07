@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo 11</title>
+		<meta charset="utf-8">
+		
+			
+		<script>
+			var numeros = new Array("um","dois","tres","quatro","cinco","seis")
+		</script>
+	</head>
+	
+	
+	<body>
+		<script>
+			for (var i = 0; i < numeros.length; i++)
+			document.write(numeros[i] + "<br>")	
+			
+			document.write("<br>")
+		
+			<!-- var numeroRetirado = numeros.pop() -->
+			var numeroRetirado = numeros.pop()
+			var numeroRetirado = numeros.shift()
+			var numeroRetirado = numeros.pop()
+			// trocar o método pop pelos métodos shift e unshift.
+			document.write(numeroRetirado + "<br>")
+			
+			for (var i = 0; i < numeros.length; i++)
+			document.write(numeros[i] + "<br>")	
+		
+		</script>
+	</body>
+	
+</html>
