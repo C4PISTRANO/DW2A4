@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo 12</title>
+		<meta charset="utf-8">
+		
+			
+		<script>
+			function calculaConta(consumo){
+			
+			var valorTotal = 0
+			
+			if (consumo < 3) 
+				valorTotal = consumo * 10
+			
+			else if (consumo > 3 && consumo <= 5)
+				valorTotal = consumo * 15
+			
+			else if  (consumo > 5 && consumo <= 10)
+				valorTotal = consumo * 25
+			
+			else (consumo > 10)
+				valorTotal = consumo * 35
+			
+			return valorTotal
+			}
+		
+		</script>
+	</head>
+	
+	
+	<body>
+		<script>		
+			var leitura = prompt ("Entre com o consumo:")
+			var valorPagar = calculaConta(leitura)
+			document.write("Valor Total:" + " " + valorPagar)
+			
+		</script>
+	</body>
+	
+</html>
