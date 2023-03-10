@@ -7,7 +7,7 @@ let isPalindrome = (str) => {
 }
 console.log(isPalindrome(str))
 
-let str2 = 'Rivaildo'
+let str2 = 'Raphael'
 let isPalindrome2 = (str2) => {
     str2 = str2.toLowerCase()
     isPalindrome2 = str2 == str2.split('').reverse().join('') ? true : false
