@@ -1,7 +1,7 @@
 var pessoa = {
     nome: {
-        primeiro:'Rivaildo',
-        ultimo: 'Ferreira'
+        primeiro:'Raphael',
+        ultimo: 'Capistrano'
     },
     idade: 35,
     sexo: 'masculino',
@@ -18,7 +18,7 @@ var pessoa = {
     }
 }
 
-/*pessoa.nome.primeiro = 'Riva'
+/*pessoa.nome.primeiro = 'Rapha'
 console.log(pessoa)
 console.log(pessoa.bio)
 console.log(pessoa.saudacao)
