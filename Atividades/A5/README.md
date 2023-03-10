@@ -23,7 +23,7 @@
 
 ## 💻 Projeto
 
-O [Form.dev](https://f3rreira.github.io/DW2A4/Atividades/A5) é uma demostracão de aplicação web com um formulário, onde foram utilizadas máscaras para controlar os formatos de entrada de dados. Foram utilizados módulos javascript para incluir máscaras, validar os campos inputs, criar classes e objetos baseados nos inputs. Máscaras de entrada podem ser utilizadas em campos de tabela, campos de consulta e controles em formulários e relatórios. 
+O [Form.dev](https://c4pistrano.github.io/DW2A4/Atividades/A5) é uma demostracão de aplicação web com um formulário, onde foram utilizadas máscaras para controlar os formatos de entrada de dados. Foram utilizados módulos javascript para incluir máscaras, validar os campos inputs, criar classes e objetos baseados nos inputs. Máscaras de entrada podem ser utilizadas em campos de tabela, campos de consulta e controles em formulários e relatórios. 
 
 A máscara de entrada é usada quando é importante que o formato dos valores de entrada sejam consistentes e válidos. Por exemplo, você pode usar uma máscara de entrada com um campo que armazena números de telefone, para que a aplicação exija a entrada de onze dígitos. Dessa forma, se alguém inserir um número de telefone sem o código de área, a aplicação não gravará os dados até que o código de área seja adicionado.
   
@@ -37,11 +37,11 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## :earth_americas: Publicação
 
-Você pode acessar e testar a página [Form.dev](https://f3rreira.github.io/DW2A4/Atividades/A5) para testar a aplicação.
+Você pode acessar e testar a página [Form.dev](https://c4pistrano.github.io/DW2A4/Atividades/A5) para testar a aplicação.
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-Form.dev by [F3ERREIRA](https://github.com/F3RREIRA)
+Form.dev by [C4PISTRANO](https://github.com/C4PISTRANO)
