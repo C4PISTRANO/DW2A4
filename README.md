@@ -79,6 +79,6 @@ Para acessar e testar as funcionalidades das páginas criadas, basta clicar na i
 ---
  <p align="center">
  <a href="https://github.com/C4PISTRANO">
-    <img alt="C4PISTRANO" title="C4PISTRANO" src="https://github.com/C4PISTRANO/Portifolio/blob/main/github/logo.png" width="200px">
+    <img alt="C4PISTRANO" title="C4PISTRANO" src="github/logo.png" width="200px">
  </a>
  </p>
