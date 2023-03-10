@@ -72,7 +72,7 @@ body {
   width: 100%;
   border-radius: 3px;
   border: none;
-  background-color: #FFC700;
+  background-color: #FF9900;
   color: #000;
   transition: color .8s;
 	
@@ -106,7 +106,7 @@ a {
 }
 
 a:hover {
-	color: #FFC700;
+	color: #FF9900;
   text-decoration: #393131;
 }
 
