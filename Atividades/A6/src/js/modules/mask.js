@@ -1,10 +1,10 @@
-const mask = {
-    cep: function (value) {
+const mascara = {
+    cep(value) {
       return value
-      .replace(/\D/g, "")
-      .replace(/(\d{5})(\d)/, "$1-$2")
-      .replace(/(-\d{3})\d+?$/, "$1");
+        .replace(/\D/g, "")
+        .replace(/(\d{5})(\d)/, "$1-$2")
+        .replace(/(-\d{3})\d+?$/, "$1");
     },
   };
-
-export default mask;
+  
+export default mascara;
