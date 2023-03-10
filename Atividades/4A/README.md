@@ -19,14 +19,14 @@
 <br>
 
 <p align="center">
-  <a href="https://c4pistrano.github.io/DW2A4/Atividades/A6">
+  <a href="https://c4pistrano.github.io/DW2A4/Atividades/4A">
     <img alt="preview" src="src/img/preview.png" width="100%">
   </a>
 </p>
 
 ## 💻 Projeto
 
-O [Pesquisa.Covid](https://c4pistrano.github.io/DW2A4/Atividades/A6) é uma página html criada para exibir os dados relacionados aos casos de COVID-19 de um determinado estado do Brasil, onde o usuário insere o CEP da região a ser pesquisada e recebe as informações sobre o estado ao qual o CEP pertence. Foram utilizados módulos e separação de conceitos, utilizando promise, async e await no JavaSCript.
+O [Pesquisa.Covid](https://c4pistrano.github.io/DW2A4/Atividades/4A) é uma página html criada para exibir os dados relacionados aos casos de COVID-19 de um determinado estado do Brasil, onde o usuário insere o CEP da região a ser pesquisada e recebe as informações sobre o estado ao qual o CEP pertence. Foram utilizados módulos e separação de conceitos, utilizando promise, async e await no JavaSCript.
   
 ## 🚀 Tecnologias
 
@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## :earth_americas: Publicação
 
-Você pode acessar e testar a página [Pesquisa.Covid](https://c4pistrano.github.io/DW2A4/Atividades/A6) para testar a aplicação.
+Você pode acessar e testar a página [Pesquisa.Covid](https://c4pistrano.github.io/DW2A4/Atividades/4A) para testar a aplicação.
 
 ## :memo: Licença
 
