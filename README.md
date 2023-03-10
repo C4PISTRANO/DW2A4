@@ -1,6 +1,6 @@
  <h1 align="center">
   <a href="https://spo.ifsp.edu.br/">
-     <img alt="Logo IFSP" title="Logo IFSP" src="https://github.com/C4PISTRANO/Github/blob/main/LogoIFSP.png" width="220px"/>
+     <img alt="Logo IFSP" title="Logo IFSP" src="github/logoIFSP.png" width="220px"/>
   </a>
  </h1>
 
@@ -64,24 +64,21 @@ Para acessar e testar as funcionalidades das páginas criadas, basta clicar na i
 
 <p align="center">
   <a href="https://c4pistrano.github.io/DW2A4/Atividades/A4/">
-    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="300px" border-radius="3px">
+    <img alt="dev.finances" title="dev.finance$" src="github/preview1.png" width="200px" border-radius="3px">
   </a>
   <a href="https://c4pistrano.github.io/DW2A4/Atividades/A5">
-    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="300px">
+    <img alt="Form.dev" title="Form.dev" src="github/preview2.png" width="200px">
   </a>
   <a href="https://c4pistrano.github.io/DW2A4/Atividades/4A/">
-    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="300px">
+    <img alt="Pesquisa.Covid" title="Pesquisa.Covid" src="github/preview3.png" width="200px">
+  </a>
+  <a href="https://c4pistrano.github.io/DW2A4/Página de links">
+    <img alt="Página de Links" title="Página de Links" src="Página de links/src/img/preview.png" width="200px">
   </a>
   
-<!--
-  <a href="https://c4pistrano.github.io/DW2A4/Página de links">
-    <img alt="Página de Links" title="Página de Links" src="Página de links/src/img/preview.png" width="300px">
-  </a>
--->  
-
 ---
  <p align="center">
  <a href="https://github.com/C4PISTRANO">
-    <img alt="Logo C4PISTRANO" title="C4PISTRANO" src="https://github.com/C4PISTRANO/Github/blob/main/Capistrano.png" width="300px">
+    <img alt="C4PISTRANO" title="C4PISTRANO" src="https://github.com/C4PISTRANO/Portifolio/blob/main/github/logo.png" width="200px">
  </a>
  </p>
