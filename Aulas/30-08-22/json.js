@@ -1,7 +1,7 @@
 const pessoa = {
     nome: {
-        primeiro: "Rivaildo",
-        ultimo: "Ferreira"
+        primeiro: "Raphael",
+        ultimo: "Capistrano"
     },
     idade: 34,
     sexo: 'masculino',
