@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <a href="https://c4pistrano.github.io/DW2A4/Atividades/4A">
+  <a href="https://c4pistrano.github.io/DW2A4/Atividades/4A/">
     <img alt="preview" src="src/img/preview.png" width="100%">
   </a>
 </p>
