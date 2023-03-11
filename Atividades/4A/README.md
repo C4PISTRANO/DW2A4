@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## :earth_americas: Publicação
 
-Você pode acessar e testar a página [Pesquisa.Covid](https://c4pistrano.github.io/DW2A4/Atividades/4A) para testar a aplicação.
+Você pode acessar a página clicando em [Pesquisa.Covid](https://c4pistrano.github.io/DW2A4/Atividades/4A) para testar a aplicação.
 
 ## :memo: Licença
 
