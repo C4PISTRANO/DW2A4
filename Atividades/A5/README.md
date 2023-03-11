@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## :earth_americas: Publicação
 
-Você pode acessar e testar a página [Form.dev](https://c4pistrano.github.io/DW2A4/Atividades/A5) para testar a aplicação.
+Você pode acessar a página clicando em [Form.dev](https://c4pistrano.github.io/DW2A4/Atividades/A5) para testar a aplicação.
 
 ## :memo: Licença
 
