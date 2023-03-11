@@ -42,7 +42,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## :earth_americas: Publicação
 
-Você pode acessar a página [dev.finace$](https://c4pistrano.github.io/DW2A4/Atividades/A4/#1) para testar a aplicação.
+Você pode acessar a página clicando em [dev.finace$](https://c4pistrano.github.io/DW2A4/Atividades/A4/#1) para testar a aplicação.
 
 ## :memo: Licença
 
