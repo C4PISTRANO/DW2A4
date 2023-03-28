@@ -30,10 +30,16 @@ Classe filha ou Classe Descendente -> Herda atributos da Classe Pai
 
 
 --------------------------------------------------------------------------------
+Projeto Jogo memória com palavras:
+
+Super classe -> Carta (id, categoria)
+
+*Criar níveis de dificuldade*
+
+
+--------------------------------------------------------------------------------
 Projeto Biblioteca:
 Super Classe -> Classe exemplar (
-
-
 
 
 --------------------------------------------------------------------------------
@@ -47,7 +53,3 @@ Add manobrista -> (id nome horario )
 estaciona / devolve (data entrada, data saída) 
 
 --------------------------------------------------------------------------------
-
-Projeto Jogo memória:
-Super classe -> Carta (naipe, número)
-
