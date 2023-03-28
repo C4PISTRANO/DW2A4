@@ -1,19 +1,53 @@
 DW2A4
 
-*Trabalho para o semestre*
+*Trabalho para o semestre: *
+Raphael / Herbert / Mariana
 
-Aplicação Robô -
-
-- Oriundo de uma classe
+Usar 4 pilares da POO:
+- Abstração
 - Encapsulamento 
-- Herança -> ex.: classe homem (estatura, massa, idade, nacionalidade, mamífero, pelagem)
-		
+- Herança -> ex.: classe homem atributos=(estatura, massa, idade, nacionalidade, mamífero, pelagem)
 - Polimorfismo
 
 
-*Usar 4 pilares da POO*
+
+Ex.: Aplicação Robô
+
+
+
 *Prog. JavaScript
 *Eventos
-------------------------------------------------
+--------------------------------------------------------------------------------
 
 *fatorar -> pegar algo comum, deixar em evidência, para cada termo ser calculado
+
+--------------------------------------------------------------------------------
+Herança:
+
+Classe Pai ou Super Classe -> Compartilha atributos com as Classes filhas
+
+Classe filha ou Classe Descendente -> Herda atributos da Classe Pai
+
+
+--------------------------------------------------------------------------------
+Projeto Biblioteca:
+Super Classe -> Classe exemplar (
+
+
+
+
+--------------------------------------------------------------------------------
+Projeto Estacionamento:
+Super Classe -> veiculo (
+		
+		
+Titular -> agregados estariam associados ao titular, para verificar o veiculo pertence
+
+Add manobrista -> (id nome horario )
+estaciona / devolve (data entrada, data saída) 
+
+--------------------------------------------------------------------------------
+
+Projeto Jogo memória:
+Super classe -> Carta (naipe, número)
+
