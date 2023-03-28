@@ -1,0 +1,19 @@
+DW2A4
+
+*Trabalho para o semestre*
+
+Aplicação Robô -
+
+- Oriundo de uma classe
+- Encapsulamento 
+- Herança -> ex.: classe homem (estatura, massa, idade, nacionalidade, mamífero, pelagem)
+		
+- Polimorfismo
+
+
+*Usar 4 pilares da POO*
+*Prog. JavaScript
+*Eventos
+------------------------------------------------
+
+*fatorar -> pegar algo comum, deixar em evidência, para cada termo ser calculado
