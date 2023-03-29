@@ -32,9 +32,19 @@ Classe filha ou Classe Descendente -> Herda atributos da Classe Pai
 --------------------------------------------------------------------------------
 Projeto Jogo memória com palavras:
 
-Super classe -> Carta (id, categoria)
+Super classe -> Carta (id, palavra)
+
+Categoria (id, animal, objeto, ...)
+
+
 
 *Criar níveis de dificuldade*
+
+
+
+
+
+
 
 
 --------------------------------------------------------------------------------
