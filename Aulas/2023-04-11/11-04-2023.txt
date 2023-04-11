@@ -4,21 +4,41 @@ let -> tipo de variável
 
 Construção de objeto literal, utilizado quando não criamos muitas instâncias
 
-1° Modo - Classe: (arquivo_04.html)
+-------------------------------------------------------------------------
+Modelos - Formas diferentes de criar objetos em Javascript:
+-------------------------------------------------------------------------
+
+(arquivo_04.html)
+1° Modo - Classe: 
 Pode-se criar quantasa instâncias quiser.
 
 *todos os atributos são públicos
 
-2° Modo - Objeto literal:(arquivo_04.html)
+2° Modo - Objeto literal:
 marca model cilindrada... -> são atributos
 honda, shadow, injeção... -> são parâmetros
 
-3° Modo - Função Construtora: (arquivo_04.html)
+3° Modo - Função Construtora:
 resumo -> é o método
 
 Quando utilizamos var o atributo é próprio dentro da função
+-------------------------------------------------------------------------
 
-
-Encapsulamento: (arquivo_05.html)
+(arquivo_05.html)
+Encapsulamento: 
 motocicletaIII -> objeto
 MotocicletaIII -> classe
+-------------------------------------------------------------------------
+
+(arquivo_06.html)
+Objeto literal -> guarda o objeto em si.
+Fábrica de objetos -> é um modelo de objeto, pode-se criar quantos objetos quisermos.
+-------------------------------------------------------------------------
+
+(arquivo_07.html)
+Função construtora -> pode ter encapsulamento
+Class -> atributos públicos
+-------------------------------------------------------------------------
+
+(arquivo_08.html)
+__proto__: -> atributo que estabelece uma relação de herança entre objetos, que podem usar atributos dos outros objetos, pode ser encadeado (filho do filho)
