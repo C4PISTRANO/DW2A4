@@ -1,5 +1,0 @@
-`${}` -> pegar o valor da variável e exibir na tela
-
-let -> tipo de variável
-
-
