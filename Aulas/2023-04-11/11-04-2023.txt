@@ -9,10 +9,8 @@ Modelos - Formas diferentes de criar objetos em Javascript:
 -------------------------------------------------------------------------
 
 (arquivo_04.html)
-1° Modo - Classe: 
+1° Modo - Classe: *todos os atributos são públicos*
 Pode-se criar quantasa instâncias quiser.
-
-*todos os atributos são públicos
 
 2° Modo - Objeto literal:
 marca model cilindrada... -> são atributos
