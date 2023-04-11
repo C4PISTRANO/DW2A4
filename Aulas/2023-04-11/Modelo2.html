@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo2</title>
+</head>
+<body>
+    <script>
+        //objeto literal - padrão ES-6
+        let marca = "Lamborghini"
+        let modelo = "Diablo"
+        let potencia = 800
+        let velocidadeMaxima = 420
+
+        let carro = {
+            marca,
+            modelo,
+            potencia,
+            velocidadeMaxima,
+            resumo() {
+                console.log(`Fabricante: ${this.marca}, Modelo: ${this.modelo}, CV: ${this.potencia} Vel. Máx: ${this.velocidadeMaxima}`)
+            }
+        }
+
+        carro.resumo()
+        carro.modelo = "Gallardo" /*reatribuir valor do parametro*/
+        carro.resumo()
+    </script>
+</body>
+</html>
