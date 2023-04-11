@@ -1,0 +1,24 @@
+`${}` -> pegar o valor da variável e exibir na tela
+
+let -> tipo de variável
+
+Construção de objeto literal, utilizado quando não criamos muitas instâncias
+
+1° Modo - Classe: (arquivo_04.html)
+Pode-se criar quantasa instâncias quiser.
+
+*todos os atributos são públicos
+
+2° Modo - Objeto literal:(arquivo_04.html)
+marca model cilindrada... -> são atributos
+honda, shadow, injeção... -> são parâmetros
+
+3° Modo - Função Construtora: (arquivo_04.html)
+resumo -> é o método
+
+Quando utilizamos var o atributo é próprio dentro da função
+
+
+Encapsulamento: (arquivo_05.html)
+motocicletaIII -> objeto
+MotocicletaIII -> classe
