@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo3</title>
+</head>
+<body>
+    <script>
+        //1° Modo - Classe
+        class Carro{
+            constructor(marca, modelo, potencia, velocidadeMaxima,){
+                this.marca = marca
+                this.modelo = modelo
+                this.potencia = potencia
+                this.velocidadeMaxima = velocidadeMaxima
+            }
+
+            resumo() {
+                console.log(`Fabricante: ${this.marca}, Modelo: ${this.modelo}, CV: ${this.potencia} Vel. Máx: ${this.velocidadeMaxima}`)
+            }
+        }
+
+        let carroI = new Carro("BMW", "320i", 300, "260") /*reatribuir valor do parametro*/
+        carroI.resumo()
+
+    </script>
+</body>
+</html>

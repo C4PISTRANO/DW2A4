@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo4</title>
+</head>
+<body>
+    <script>
+
+        /*
+        //1° Modo - Classe
+        class Carro{
+            constructor(marca, modelo, potencia, velocidadeMaxima,){
+                this.marca = marca
+                this.modelo = modelo
+                this.potencia = potencia
+                this.velocidadeMaxima = velocidadeMaxima
+            }
+
+            resumo() {
+                console.log(`Fabricante: ${this.marca}, Modelo: ${this.modelo}, CV: ${this.potencia} Vel. Máx: ${this.velocidadeMaxima}`)
+            }
+        }
+
+        let carroI = new Carro("BMW", "320i", 300, "260") //reatribuir valor do parametro
+        carroI.resumo()
+        
+        
+
+
+        //2° Modo - Objeto Literal
+        let carroII = {
+            marca: "Honda",
+            modelo: "Civic",
+            potencia: 150,
+            velocidadeMaxima: 220,
+            resumo(){
+                console.log(`Fabricante: ${this.marca}, Modelo: ${this.modelo}, CV: ${this.potencia}, Vel. Máx: ${this.velocidadeMaxima}`)
+            }
+        }
+
+        carroII.resumo()
+        */
+
+        //3° Modo - Função Construtora
+        let CarroIII = function(){
+            //Aqui não tem o método construtor explicito
+            this.marca = "Toyota"
+            this.modelo = "Camry"
+            this.potencia = 230
+            this.velocidadeMaxima = 240
+            this.resumo = function(){
+                console.log(`Fabricante: ${this.marca}, Modelo: ${this.modelo}, CV: ${this.potencia}, Vel. Máx: ${this.velocidadeMaxima}`)
+            }
+            this.getPotencia = function(){
+                return this.potencia
+            }
+        }
+
+        let carroIII = new CarroIII()
+        carroIII.resumo()
+        console.log(carroIII.getPotencia())
+
+
+
+    </script>
+</body>
+</html>
