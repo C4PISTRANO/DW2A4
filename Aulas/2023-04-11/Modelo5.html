@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo5</title>
+</head>
+<body>
+    <script>
+
+        //Função Construtora
+        let CarroIII = function(){
+            //Aqui não tem o método construtor explicito
+            var velMaxima = 180
+            this.marca = "Mercedes"
+            this.modelo = "SLK"
+            this.potencia = 310
+            this.velocidadeMaxima = 260
+            this.velocidade = 0
+            this.resumo = function(){
+                console.log(`Fabricante: ${this.marca}, Modelo: ${this.modelo}, CV: ${this.potencia}, Vel. Máx: ${this.velocidadeMaxima}`)
+            }
+            this.acelerar = function(){
+                if((this.velocidade +20)<= velMaxima){
+                    this.velocidade += 20
+                }
+            }
+        }
+
+        let carroIII = new CarroIII()
+        console.log(carroIII.velocidade)
+        carroIII.acelerar()
+        console.log(carroIII.velocidade)
+        carroIII.acelerar()
+        console.log(carroIII.velocidade)
+        carroIII.acelerar()
+        console.log(carroIII.velocidade)
+        carroIII.acelerar()
+
+
+
+    </script>
+</body>
+</html>
