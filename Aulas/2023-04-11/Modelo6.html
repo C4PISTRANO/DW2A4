@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo6</title>
+</head>
+<body>
+    <script>
+
+        //Objeto Literal
+        let carro = {
+            marca: "Lotus",
+            modelo: "Elise",
+            potencia: 280,
+            velocidadeMaxima: 280,
+            ligar: function(){
+                console.log("Vrummm...")
+            },
+            desligar: function(){
+                console.log("mmm...")
+            }
+        }
+
+        console.log(carro)
+        carro.ligar()
+        carro.desligar()
+
+        //Fábrica de objetos
+        let CarFactory = function(marca, modelo, potencia, velocidadeMaxima){
+            return{
+                marca,
+                modelo,
+                potencia,
+                velocidadeMaxima,
+                ligar(){
+                console.log("Vrummm...")
+                },
+                desligar(){
+                console.log("mmm...")
+                }
+            }
+        }
+        
+        let carFactory_01 = new CarFactory("Audi","TT",310,"300")
+        console.log(carFactory_01)
+
+        let carFactory_02 = new CarFactory("Volks","Golf",200,"230")
+        console.log(carFactory_02)
+        carFactory_02.modelo = "Bora"
+        carFactory_02.potencia = 210
+        console.log(carFactory_02)
+
+
+
+
+
+    </script>
+</body>
+</html>
