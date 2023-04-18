@@ -41,4 +41,4 @@ Teste de unidade -> Testar um função, para corresponder as espectativas.
 Teste integrado -> Testar todo o código.
 Experiência do usuário -> deixar outros testarem o funcionamento.
 
-Trabalhar em pares -> equalizar estilos de codificação e
+Trabalhar em pares -> equalizar estilos de codificação e forma de trabalho.
