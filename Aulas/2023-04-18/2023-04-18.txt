@@ -1,0 +1,43 @@
+##QUALIDADE DE SOFTWARE:
+
+-separar os projetos em pastas: HTML, src, img...
+
+-Sempre colocar comentários, para facilitar a manutenção depois de algum tempo ou para trabalhos em equipe. Agiuliza o entendimento do código.
+
+-Utilizar padrões, deixar a identação explicita
+
+-Deixar os parentese e chaves, mesmo que seja redundante.
+
+-Declaração de identificadores livres, nomes de variáveis, nomes de métodos (camelCase)
+primeiraClasse, segundaClase...
+
+-Não repetir código desnecessáriamente, reaproveitar utilizando POO. Utilizar classes.
+
+-Fatorar o código -> Rever e diminuir o código, remover funções que se repetem, criando novas funções para serem chamadas.
+
+-Dividir funções de um método muito extenso.
+
+-Usar nomes legíveis, para variáveis e funções.
+
+-Fazer versionamento do código (git, gitHub).
+
+-Utilizar recursos para validar os dados recebidos (evitar SQL injection, por exemplo).
+
+
+
+*Semana que vem*
+Ferramnetas para remover Linters (fiapos) -> programas/extensões dos ambientes de desenvolvimento, formatação por exemplo.
+
+*Existem erros de compilação, de execução e de exceções.
+
+*Pesquisar:
+linters
+
+try  
+catch
+Throw -> se não executar ou passar para frente.
+
+
+Teste de unidade -> Testar um função, para corresponder as espectativas.
+Teste integrado -> Testar todo o código.
+Experiência do usuário -> deixar outros testarem o funcionamento.
