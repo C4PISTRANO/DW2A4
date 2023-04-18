@@ -30,13 +30,14 @@ Ferramnetas para remover Linters (fiapos) -> programas/extensões dos ambientes 
 
 *Existem erros de compilação, de execução e de exceções.
 
-*Pesquisar try e catch
+*Pesquisar:
+linters
+
+try  
+catch
 Throw -> se não executar ou passar para frente.
 
- 
 
-
-
-
-
-
+Teste de unidade -> Testar um função, para corresponder as espectativas.
+Teste integrado -> Testar todo o código.
+Experiência do usuário -> deixar outros testarem o funcionamento.
