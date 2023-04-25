@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmls="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Exemplo12</title>
+<body>
+	<script>
+		const saudacao = () =>{
+			const horaAtual = new Date().getHours()
+			if (horaAtual <=12)
+				return "Bom dia"
+			if (horaAtual <=18)
+				return "Boa tarde"
+			return "Boa noite"
+		}
+		
+		console.log(saudacao())
+	</script>
+</body>
+</html>
