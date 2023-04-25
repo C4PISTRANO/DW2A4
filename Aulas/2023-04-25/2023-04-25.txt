@@ -1,0 +1,4 @@
+2023-04-25 DW2A4
+
+ função callback -> recebe valores de outra função
+ 
