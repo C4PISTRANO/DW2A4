@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmls="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>Exemplo22</title>
+<body>
+	<script>
+		const saudacao = (nome, responder) => { //repare que está sendo passada a função definida
+			const horaAtual = new Date().getHours()
+			
+			//const responder = (msg) => console.log(msg, nome)
+		
+			if(horaAtual <=12) return responder ("Bom dia," + nome)
+			if(horaAtual <=18) return responder ("Boa tarde," + nome)
+			return responder ("Boa noite," + nome)
+		}
+		
+		//const respCallBack = (msg) => console.log(msg)
+				
+		saudacao(" O Ilusionista", (msg) => alert(msg))
+	</script>
+</body>
+</html>
