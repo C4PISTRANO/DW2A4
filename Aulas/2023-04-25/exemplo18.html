@@ -3,20 +3,20 @@
 <html lang="pt-br" xmls="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8" />
-	<title>Exemplo17</title>
+	<title>Exemplo18</title>
 <body>
 	<script>
 		const saudacao = () => {
 			const horaAtual = new Date().getHours()
 			
 			const responder = (msg) => console.log(msg)
-		
+			//Observar o acréscimo da chamada de "responder e o par de parenteses"
 			if(horaAtual <=12) return responder ("Bom dia")
 			if(horaAtual <=18) return responder ("Boa tarde")
 			return responder ("Boa noite")
 		}
 		
-		saudacao();
+		saudacao()
 	</script>
 </body>
 </html>
