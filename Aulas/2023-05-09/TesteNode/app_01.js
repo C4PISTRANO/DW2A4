@@ -14,8 +14,11 @@ function divisao(a, b){
     return (a / b)
 }
 
+var name = "Raphael"
+
 module.exports = {
     soma,
     subtracao,
-    multiplicacao
+    multiplicacao,
+    name
 }

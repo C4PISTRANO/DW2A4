@@ -1,0 +1,5 @@
+2023-05-09
+
+Node -> Ambiente de interpretação e execução de código javascript
+
+Permitiu que o Javascript possa ser utilizado no backend.
