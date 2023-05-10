@@ -8,5 +8,16 @@ Permitiu que o Javascript possa ser utilizado no backend.
 
 *Ver livro -> O homem que calculava*
 
-comandoi para executar no node:
+comando para executar no node:
  node <nome do arquivo>
+ 
+--------------------------
+ SPA - Single Page Application
+
+O tráfego das requisições é bem menor
+
+prova:
+
+função
+POO
+
