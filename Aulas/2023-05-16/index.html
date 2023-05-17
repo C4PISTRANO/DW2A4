@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,19 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.min.js"></script>
     <script src="/app.js"></script>
-    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/style.css" />
     <title>SPA</title>
 </head>
-<body ng-app="App" class="menu">
-    <a href="#/">Home</a>
-    <a href="#/pagina1">Página 1</a>
-    <a href="#/pagina2">Página 2</a>
-    <a href="#/pagina3">Página 3</a>
+
+<body ng-app="App">
+    <nav class="nav">
+        <a href="#/">Home</a>
+        <a href="#/pagina1">Atuais</a>
+        <a href="#/pagina2">Época</a>
+        <a href="#/pagina3">Clássicos</a>
+    </nav>
 
     <div ng-view></div>
 </body>
+
 </html>

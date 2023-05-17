@@ -16,27 +16,42 @@ body {
   align-items: center;
   justify-content: center;
 
-  background: url(..//img/bg.jpg);
+  /*background: url(..//img/bg.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
-}
 
-body p {
+  margin-left: 200px;
+}
+h1 {
   align-items: center;
   justify-content: center;
-}
-
-body a {
-  display: absolute;
-  margin-top: -10;
-}
-
-h1 {
+  margin-left: 200px;
   font-size: 1.5em;
 }
 
+body p {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+a {
+  display: absolute;
+  padding-top: 10;
+  align-items:center;
+  justify-content: center;
+  color: red;
+  font-weight: 800;
+  font-size: 2em;
+  margin-top: 2px, red;
+  padding: 10px;
+}
+
 img {
-  height: 100px;
+  height: 200px;
   max-height: 300px;
   align-items: center;
+  justify-content: center;
+  padding-left: 100px;
 }
