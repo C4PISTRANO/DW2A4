@@ -6,19 +6,28 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.title {
+.title, .subtitle {
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 100px;
+  left: 10%;
+  right: 10%;
+  align-items: center;
+
+}
+
+.subtitle {
+  top: 150px;
 }
 
 .nav {
+  display: flexbox;
   position: fixed;
   top: 0;
   left: 0;
   width: 80%;
   padding: 20px 100px;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   font-weight: 800;
@@ -39,16 +48,17 @@ h1 {
 body img {
   display: flexbox;
   padding: 10px;
-  /* flex-direction: row; */
-  /* align-items: center;
-  justify-content: space-between; */
   margin-left: auto;
   margin-right: auto;
   height: 200px;
   max-height: 300px;
 }
 
-body .logo {}
+body .logo img {
+  margin-top: 100px;
+  height: 50px;
+  max-height: 300px;
+}
 
 body p {
   display: block;
@@ -61,6 +71,7 @@ body p {
 }
 
 .games {
+  display: flexbox;
   position: absolute;
   left: 10%;
   right: 10%;
